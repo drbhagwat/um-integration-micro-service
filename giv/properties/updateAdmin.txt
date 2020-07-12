@@ -1,0 +1,4 @@
+Thanks for updating your GIV credentials.
+Your updated Username is {{parameter1}}.
+and your password is what you specified.
+

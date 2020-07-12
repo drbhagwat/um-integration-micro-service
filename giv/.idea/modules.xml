@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../eureka/eureka.iml" filepath="$PROJECT_DIR$/../eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/giv.iml" filepath="$PROJECT_DIR$/giv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../spring-eureka-gallery/spring-eureka-student.iml" filepath="$PROJECT_DIR$/../spring-eureka-gallery/spring-eureka-student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../um-zuul-gateway/zuul-gateway.iml" filepath="$PROJECT_DIR$/../um-zuul-gateway/zuul-gateway.iml" />
+    </modules>
+  </component>
+</project>

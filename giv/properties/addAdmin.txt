@@ -1,0 +1,7 @@
+Thanks for registering with S3 Group Inc, to use Global Inventory View (GIV) REST APIs.
+To access these APIs,
+please use the following credentials in Postman or any other similar tool of your choice:
+Select Basic Authorization
+Your Username is {{parameter1}}
+and your current password is {{parameter2}}
+Read the GIV API guide for details on how to exactly use GIV APIs.

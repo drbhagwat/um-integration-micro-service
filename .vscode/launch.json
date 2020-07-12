@@ -1,0 +1,28 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GatewayApplication",
+            "request": "launch",
+            "mainClass": "com.s3groupinc.gateway.GatewayApplication",
+            "projectName": "zuul-gateway"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EurekaApplication",
+            "request": "launch",
+            "mainClass": "com.s3groupinc.eureka.EurekaApplication",
+            "projectName": "eureka"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

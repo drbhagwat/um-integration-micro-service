@@ -1,0 +1,7 @@
+
+Y
+java:S3655";Call "skuInventory.isPresent()" before accessing the value.(©Çî8ÑäôŒ.
+ˆ
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(İ—†88ÑäôŒ.
+b	java:S112>"FDefine and throw a dedicated exception instead of using a generic one.(®³Ñ¾8ÑäôŒ.
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(İ—†88ÑäôŒ.

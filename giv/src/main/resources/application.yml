@@ -1,0 +1,142 @@
+server:
+#  ssl.key-store: classpath:keystore.p12
+#  ssl.key-store-password: password
+#  ssl.key-store-type: PKCS12
+#  ssl.key-alias: tomcat
+  port: 8443
+  servlet:
+    context-path: /api
+    multipart:
+      enabled: false
+      file-size-threshold: 2KB
+      max-file-size: 200MB
+      max-request-size: 215MB
+      
+## File Storage Properties
+# All files uploaded through the REST API will be stored in this directory
+file.upload-dir: /tmp
+
+spring:
+  application:
+    name: giv
+  output:
+    ansi:
+      enabled: ALWAYS
+  datasource:
+    url: jdbc:postgresql://mic-pg:5432/postgres
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+    # Keep the connection alive if idle for a long time (needed in production)
+    test-while-idle: true
+    validation-query: SELECT 1
+    initialization-mode: never
+    platform: postgres
+    hikari:
+      minimum-idle: 20
+      maximum-pool-size: 200
+      idle-timeout: 300000
+      max-lifetime: 1200000
+      auto-commit: true
+      pool-name: HikariConnectionPool
+  jpa:
+    # Show or not log for each sql query
+    show_sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+logging:
+  file: /tmp/giv/givapi.log
+  level:
+    root: INFO
+    org.springframework.web: ERROR
+    com.s3groupinc: DEBUG
+    org.hibernate: ERROR
+
+eureka:
+  client:
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+
+# following constants are for validation of various Json inputs and Exception handling.
+VALIDATION_FAILED: Validation Failed
+GIV_EXCEPTION: Giv Exception
+ALPHA_NUMERIC_AND_SPACE_REGEX: ^[ a-zA-Z0-9]*$
+ALPHA_NUMERIC_REGEX: ^[a-zA-Z0-9]*$
+
+
+JWT_SECRET: test123
+# following messages are for the core classes.
+COMPANY_CODE_MAX_LENGTH: 10
+DIVISION_CODE_MAX_LENGTH: 10
+WAREHOUSE_CODE_MAX_LENGTH: 10
+CHANNEL_CODE_MAX_LENGTH: 10
+CHANNEL_NAME_MAX_LENGTH: 20
+MANUFACTURING_PLANT_CODE_MAX_LENGTH: 10
+
+# following messages are common for all external API classes.
+ADD_OR_SUBTRACT: A, S
+ACTION: A, S, L, U
+ALLOCATE_OR_DEALLOCATE: A, D
+QUANTITY: 1
+ALLOCATE: A
+CANCEL: D
+REQUEST: R
+INQUIRY: M
+MAX_SKU_ATTRIBUTE_LENGTH: 1
+INVENTORY_SOURCE: G, M
+SKUBARCODE_MAX_LENGTH: 20
+API_SUCCESS_RESPONSE: SUCCESS
+API_FAILURE_RESPONSE: FAILURE
+API_PARTIAL_SUCCESS_RESPONSE: PARTIAL_SUCCESS
+
+# define item api specific and exception messages here
+LOTCONTROLUSED: Y, N
+SERIALNUMBERUSED: Y, N
+ADD_REQUEST: ADD
+UPDATE_REQUEST: UPDATE
+LOCK_REQUEST: LOCK
+UNLOCK_REQUEST: UNLOCK
+
+# define wms api specific and exception messages here
+COMPANY_MAX_LENGTH: 10
+DIVISION_MAX_LENGTH: 10
+WAREHOUSE_MAX_LENGTH: 10
+WMS_ACTIONS: A, S, L, U, C
+WMS_QUERY_REQUEST_FOR: A, P
+WMS_QUERY_TRANSACTIONS_ACTIONS: QTR, QTA, QTCH
+WMS_QUERY_INVENTORY_DETAILS_ACTIONS: QI, QIA, QIC
+CONSUME : consume
+
+# define channel api specific and exception messages here
+CHANNEL_MAX_LENGTH : 10
+FAILURE_RESPONSE: F
+SUCCESS_RESPONSE: S
+PARTIAL_RESPONSE: P
+WMS_INVENTORY_SOURCE: G
+CHANNEL_ACTIONS: A, D
+ORDER_TYPE: OS, PS
+
+#  define campaign api specific and exception messages here
+CAMPAIGN_CODE_MAX_LENGTH: 20
+AUTO_REPLENISH: Y,N
+AUTO_REPLENISH_NO: N
+CAMPAIGN_ACTIVE: Y,N
+CAMPAIGN_ACTION: C,U
+CREATE_ACTION: C
+UPDATE_ACTION: U
+CAMPAIGN_ACTIVE_NO: N
+CAMPAIGN_ACTIVE_YES: Y
+
+# define manufacturing inventory api specific and exception messages here
+MFG_INVENTORY_SOURCE: M
+MFG_ACTIONS: A, S, L, U

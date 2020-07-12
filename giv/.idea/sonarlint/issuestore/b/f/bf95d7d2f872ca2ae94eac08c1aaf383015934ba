@@ -1,0 +1,10 @@
+
+_
+java:S2184"FCast one of the operands of this multiplication operation to a "long".(ˆà’ıûÿÿÿÿ
+e
+java:S1128"ORemove this unused import 'org.springframework.beans.factory.annotation.Value'.(ìø›
+r	java:S115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(†·Î¾ùÿÿÿÿ
+L
+java:S1144"3Remove this unused private "isTokenExpired" method.(áÁŠ›ûÿÿÿÿ
+H
+java:S1144"4Remove this unused private "doGenerateToken" method.(¨è®Æ

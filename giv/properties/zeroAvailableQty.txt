@@ -1,0 +1,7 @@
+Available Quantity in GIV has reached zero for this,
+Style: {{parameter1}},
+StyleSuffix: {{parameter2}},
+Color : {{parameter3}},
+ColorSuffix : {{parameter4}},
+SkuBarcode : {{parameter5}}.
+Please take necessary steps to add inventory.

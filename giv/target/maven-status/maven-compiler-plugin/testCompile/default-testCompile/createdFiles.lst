@@ -1,0 +1,8 @@
+api\WmsValidationServiceTest.class
+api\ChannelTest.class
+api\CompanyTest.class
+api\WmsQueryServiceTest.class
+api\WmsServiceTest.class
+api\DivisionTest.class
+api\CampaignServiceTest.class
+api\WarehouseTest.class

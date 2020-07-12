@@ -1,0 +1,208 @@
+server:
+  port: 8800
+
+spring:
+  application:
+    name: zuul-service
+  flyway:
+    baseline-on-migrate: true
+  datasource:
+    url: jdbc:postgresql://mic-pg:5432/postgres
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+    platform: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+eureka:
+  client:
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+
+zuul:
+  routes:
+    gallery-service:
+      path: /gallery/**
+      serviceId: gallery-service
+      sensitiveHeaders: Cookie,Set-Cookie
+    giv:
+      path: /giv/**
+      serviceId: giv
+      sensitiveHeaders: Cookie,Set-Cookie
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 12000000
+
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+
+ldap:
+  enabled: false
+  urls: ldap://ldap.forumsys.com:389/
+  base:
+    dn: dc=example,dc=com
+  username: cn=read-only-admin,dc=example,dc=com
+  password: password
+  user:
+    dn:
+      pattern: uid={0}
+
+# following constants are for validation of various Json inputs and Exception handling.
+VALIDATION_FAILED: Validation Failed
+UM_EXCEPTION: UM Exception
+ALPHA_NUMERIC_REGEX: ^[ a-zA-Z0-9]*$
+
+# following messages are for the core classes.
+CODE_MAX_LENGTH: 10
+JWT_SECRET: test123
+
+#LDAP related information
+INITIAL_CONTEXT_FACTORY: com.sun.jndi.ldap.LdapCtxFactory
+SECURITY_AUTHENTICATION: simple
+USER_CONTEXT: dc=example,dc=com
+
+# define all permitall paths - used by everyone
+PERMIT_ALL_PATH: /login, /changepassword, /forgotpassword, /resetpasswordbytoken
+
+# define all paths for internal APIs - used by admin only
+USERS_PATH: /users/**
+ADMINS_PATH: /admins/**, /gallery/**
+CHANNEL_PATH: /channels/**
+
+# define all paths for internal APIs - used by givadmin only
+COMPANY_PATH: /companies/**
+DIVISION_PATH: /divisions/**
+WAREHOUSE_PATH: /warehouses/**
+MFG_PLANT_PATH: /manufacturingplants/**
+
+# define all paths for external APIs - used by givadmin and normal users
+ITEM_PATH: /items/**
+ITEM_SEARCH_PATH:  /itemsearch/**
+ITEM_REQUEST_SEARCH_PATH:  /itemrequestsearch/**
+ITEM_RESPONSE_SEARCH_PATH:  /itemresponsesearch/**
+REQUESTHISTORYGETALL_PATH: /requesthistorygetall/**
+RESPONSEHISTORYGETALL_PATH: /responsehistorygetall/**
+ITEM_REQUEST_HISTORY_PATH:  /itemrequesthistory/**
+ITEM_RESPONSE_HISTORY_PATH:  /itemresponsehistory/**
+
+MFG_INVENTORY_PATH: /mfginventory/**
+MFG_INVENTORY_SEARCH_PATH:  /mfginventorysearch/**
+MFG_REQUEST_HISTORY_PATH:  /mfgrequesthistory/**
+MFG_RESPONSE_HISTORY_PATH:  /mfgresponsehistory/**
+MFG_REQUEST_HISTORY_SEARCH_PATH:  /mfgrequesthistorysearch/**
+MFG_RESPONSE_HISTORY_SEARCH_PATH:  /mfgresponsehistorysearch/**
+
+REQUESTHISTORY_PATH: /requesthistory/**
+REQUESTHISTORYINVENTORYSEARCH_PATH:  /requestinventorysearch/**
+REQUESTMFGINVENTORYSEARCH_PATH:  /requestmfginventorysearch/**
+RESPONSEHISTORY_PATH: /responsehistory/**
+RESPONSEHISTORYINVENTORYSEARCH_PATH:  /responseinventorysearch/**
+RESPONSEMFGINVENTORYSEARCH_PATH:  /responsemfginventorysearch/**
+
+CAMPAIGN_PATH: /giv/api/campaigns
+CAMPAIGN_SEARCH_PATH:  /campaignsearch/**
+CAMPAIGN_REQUESTHISTORY_PATH: /campaignrequesthistory/**
+CAMPAIGN_RESPONSEHISTORY_PATH: /campaignresponsehistory/**
+REQUESTCAMPAIGNSEARCH_PATH:  /requestcampaignsearch/**
+RESPONSECAMPAIGNSEARCH_PATH:  /responsecampaignsearch/**
+CAMPAIGN_HEADERS_PATH: /campaignheaders/**
+CAMPAIGN_DETAILS_PATH: /campaigndetails/**
+
+CHANNELAPI_PATH: /giv/api/channel
+CHANNEL_REQUEST_HISTORY_SEARCH_PATH:  /channelrequesthistorysearch/**
+CHANNEL_RESPONSE_HISTORY_SEARCH_PATH:  /channelresponsehistorysearch/**
+CHANNEL_REQUEST_HISTORY_GET_ALL_PATH: /channelrequesthistorygetall/**
+CHANNEL_RESPONSE_HISTORY_GET_ALL_PATH: /channelresponsehistorygetall/**
+CHANNEL_REQUEST_HISTORY_PATH: /channelrequesthistory/**
+CHANNEL_RESPONSE_HISTORY_PATH: /channelresponsehistory/**
+
+WMSINVENTORY_PATH: /giv/api/wmsinventory
+WMS_INVENTORY_SEARCH_PATH:  /wmsinventorysearch/**
+WMS_REQUEST_SEARCH_PATH:  /wmsrequestsearch/**
+WMS_RESPONSE_SEARCH_PATH:  /wmsresponsesearch/**
+WMS_REQUEST_HISTORY_PATH:  /wmsrequesthistory/**
+WMS_RESPONSE_HISTORY_PATH:  /wmsresponsehistory/**
+QUERY_INVENTORY_PATH: /queryinventory/**
+
+# there are only two roles in GIV
+ROLE_USER: ROLE_USER
+ROLE_ADMIN: ROLE_ADMIN
+
+WMS_GROUP: WMS
+CAMPAIGN_GROUP: CAMPAIGN
+CHANNEL_GROUP: CHANNEL
+
+USER_PATH:  ${USERS_PATH}, ${QUERY_INVENTORY_PATH}, ${WMS_INVENTORY_SEARCH_PATH}, ${WMS_REQUEST_SEARCH_PATH}, ${WMS_RESPONSE_SEARCH_PATH}, ${WMS_REQUEST_HISTORY_PATH}, ${WMS_RESPONSE_HISTORY_PATH}, ${ITEM_PATH}, ${ITEM_SEARCH_PATH}, ${ITEM_REQUEST_SEARCH_PATH}, ${ITEM_RESPONSE_SEARCH_PATH}, ${ITEM_REQUEST_HISTORY_PATH}, ${ITEM_RESPONSE_HISTORY_PATH}, ${REQUESTHISTORYGETALL_PATH}, ${CAMPAIGN_PATH}, ${CAMPAIGN_REQUESTHISTORY_PATH}, ${CAMPAIGN_RESPONSEHISTORY_PATH}, ${REQUESTCAMPAIGNSEARCH_PATH}, ${RESPONSECAMPAIGNSEARCH_PATH}, ${CAMPAIGN_SEARCH_PATH}, ${CHANNELAPI_PATH}, ${CHANNEL_REQUEST_HISTORY_SEARCH_PATH}, ${CHANNEL_RESPONSE_HISTORY_SEARCH_PATH}, ${CHANNEL_REQUEST_HISTORY_GET_ALL_PATH}, ${CHANNEL_RESPONSE_HISTORY_GET_ALL_PATH}, ${CHANNEL_REQUEST_HISTORY_PATH}, ${CHANNEL_RESPONSE_HISTORY_PATH}, ${MFG_INVENTORY_PATH}, ${MFG_INVENTORY_SEARCH_PATH}, ${MFG_REQUEST_HISTORY_PATH}, ${MFG_RESPONSE_HISTORY_PATH}, ${MFG_REQUEST_HISTORY_SEARCH_PATH}, ${MFG_RESPONSE_HISTORY_SEARCH_PATH}, ${WMSINVENTORY_PATH}, ${REQUESTHISTORY_PATH}, ${REQUESTHISTORYINVENTORYSEARCH_PATH}, ${REQUESTMFGINVENTORYSEARCH_PATH}, ${RESPONSEHISTORY_PATH}, ${RESPONSEHISTORYGETALL_PATH}, ${RESPONSEHISTORYINVENTORYSEARCH_PATH}, ${RESPONSEMFGINVENTORYSEARCH_PATH}
+ADMIN_PATH: ${USERS_PATH}, ${COMPANY_PATH}, ${DIVISION_PATH}, ${WAREHOUSE_PATH}, ${MFG_PLANT_PATH}, ${CAMPAIGN_HEADERS_PATH}, ${ADMINS_PATH}, ${CHANNEL_PATH}, ${USERS_PATH}, ${CAMPAIGN_DETAILS_PATH}, ${USER_PATH}
+
+ADMIN_ADDED: 915
+#Admin is successfully added in UM.
+ADMIN_UPDATED: 916
+#Admin is successfully updated, in UM.
+ADMIN_DISABLED: 917
+#Admin is successfully disabled, in UM.
+USER_ADDED: 918
+#User is successfully added, in UM.
+USER_UPDATED: 919
+#User is successfully updated, in UM.
+USER_DISABLED: 920
+#User is successfully disabled, in UM.
+
+ADMIN_NAME_ALREADY_EXISTS: 933
+#Cannot add this admin, as an admin with this name already exists in UM.
+ADMIN_EMAIL_ALREADY_EXISTS: 934
+#Cannot add this admin, as an admin with this email already exists in UM.
+ADMIN_NOT_UPDATED_MINIMUM_ONE_WITH_API_ACCESS_NEEDED: 935
+#Admin is not updated, as there should be at least one GIV admin who has access to APIs.
+ADMIN_UPDATE_BY_DIFFERENT_USER_NOT_ALLOWED: 936
+#Admin is not updated, as the admin who updates is different.
+ADMIN_NOT_FOUND: 937
+#Cannot update this admin, as this admin does not exist in UM.
+ADMIN_NOT_DISABLED_MINIMUM_ONE_NEEDED: 938
+#Admin is not disabled, as there should be at least one UM admin who has access to APIs.
+USER_NAME_ALREADY_EXISTS: 939
+#Cannot add this user, as a user with this name already exists in UM.
+USER_EMAIL_ALREADY_EXISTS: 940
+#Cannot add this user, as a user with this email already exists in UM.
+USER_NOT_FOUND: 941
+#This user does not exist in UM.
+
+EMAIL_TEMPLATE_NOT_FOUND: 960
+#Could not read Email template
+
+USER_NAME_MANDATORY: 1028
+#userName key is missing in the Json input. Please provide a name key with a value.
+USER_NAME_CANNOT_BE_BLANK: 1029
+#userName value in the Json input is blank. Please provide a non-blank value for the name key.
+EMAIL_MANDATORY: 1030
+#email key is missing in the Json input. Please provide a name key with a value.
+EMAIL_CANNOT_BE_BLANK: 1031
+#email value in the Json input is blank. Please provide a non-blank value for the name key.
+PASSWORD_MANDATORY: 1032
+#password key is missing in the Json input. Please provide a name key with a value.
+PASSWORD_CANNOT_BE_BLANK: 1033
+#password value in the Json input is blank. Please provide a non-blank value for the name key.
+ADMIN_NAME_MANDATORY: 1034
+#adminName key is missing in the Json input. Please provide a name key with a value.
+ADMIN_NAME_CANNOT_BE_BLANK: 1035
+#adminName value in the Json input is blank. Please provide a non-blank value for the name key.
+FULL_NAME_MANDATORY: 1036
+#fullName key is missing in the Json input. Please provide a name key with a value.
+FULL_NAME_CANNOT_BE_BLANK: 1037
+#fullName value in the Json input is blank. Please provide a non-blank value for the name key.
+API_ENABLED_SHOULD_BE_TRUE_OR_FALSE: 963
+#apiEnabled should be either true or false.

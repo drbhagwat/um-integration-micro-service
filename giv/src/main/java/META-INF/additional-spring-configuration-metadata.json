@@ -1,0 +1,1717 @@
+{"properties": [
+  {
+    "name": "check-user-scopes",
+    "type": "java.lang.String",
+    "description": "A description for 'check-user-scopes'"
+  },
+  {
+    "name": "clientId",
+    "type": "java.lang.String",
+    "description": "A description for 'clientId'"
+  },
+  {
+    "name": "clientSecret",
+    "type": "java.lang.String",
+    "description": "A description for 'clientSecret'"
+  },
+  {
+    "name": "subject",
+    "type": "java.lang.String",
+    "description": "A description for 'subject'"
+  },
+  {
+    "name": "initialLoginLink",
+    "type": "java.lang.String",
+    "description": "A description for 'initialLoginLink'"
+  },
+  {
+    "name": "ITEM_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'ITEM_PATH'"
+  },
+  {
+    "name": "ROLE_ITEM",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_ITEM'"
+  },
+  {
+    "name": "WMS_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'WMS_PATH'"
+  },
+  {
+    "name": "ROLE_WMS",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_WMS'"
+  },
+  {
+    "name": "CATALOG_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CATALOG_PATH'"
+  },
+  {
+    "name": "ROLE_CATALOG",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_CATALOG'"
+  },
+  {
+    "name": "CAMPAIGN_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_PATH'"
+  },
+  {
+    "name": "ROLE_CAMPAIGN",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_CAMPAIGN'"
+  },
+  {
+    "name": "REQUESTHISTORY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUESTHISTORY_PATH'"
+  },
+  {
+    "name": "ROLE_REQUESTHISTORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_REQUESTHISTORY'"
+  },
+  {
+    "name": "RESPONSEHISTORY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSEHISTORY_PATH'"
+  },
+  {
+    "name": "ROLE_RESPONSEHISTORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_RESPONSEHISTORY'"
+  },
+  {
+    "name": "USER",
+    "type": "java.lang.String",
+    "description": "A description for 'USER'"
+  },
+  {
+    "name": "ROLE_USER",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_USER'"
+  },
+  {
+    "name": "COMPANY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_PATH'"
+  },
+  {
+    "name": "DIVISION_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'DIVISION_PATH'"
+  },
+  {
+    "name": "CHANNEL_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_PATH'"
+  },
+  {
+    "name": "ADMIN_PREFIX",
+    "type": "java.lang.String",
+    "description": "A description for 'ADMIN_PREFIX'"
+  },
+  {
+    "name": "ADMIN_USERNAME",
+    "type": "java.lang.String",
+    "description": "A description for 'ADMIN_USERNAME'"
+  },
+  {
+    "name": "ADMIN_PASSWORD",
+    "type": "java.lang.String",
+    "description": "A description for 'ADMIN_PASSWORD'"
+  },
+  {
+    "name": "ROLE_ADMIN",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_ADMIN'"
+  },
+  {
+    "name": "USER_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'USER_PATH'"
+  },
+  {
+    "name": "ADMIN_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'ADMIN_PATH'"
+  },
+  {
+    "name": "API_SUCCESS_RESPONSE",
+    "type": "java.lang.String",
+    "description": "A description for 'API_SUCCESS_RESPONSE'"
+  },
+  {
+    "name": "API_FAILURE_RESPONSE",
+    "type": "java.lang.String",
+    "description": "A description for 'API_FAILURE_RESPONSE'"
+  },
+  {
+    "name": "API_PARTIAL_SUCCESS_RESPONSE",
+    "type": "java.lang.String",
+    "description": "A description for 'API_PARTIAL_SUCCESS_RESPONSE'"
+  },
+  {
+    "name": "MAX_COMPANY_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_COMPANY_LENGTH'"
+  },
+  {
+    "name": "MAX_DIVISION_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_DIVISION_LENGTH'"
+  },
+  {
+    "name": "MAX_WAREHOUSE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_WAREHOUSE_LENGTH'"
+  },
+  {
+    "name": "MAX_PACKAGEBARCODE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_PACKAGEBARCODE_LENGTH'"
+  },
+  {
+    "name": "MAX_CHANNEL_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_CHANNEL_LENGTH'"
+  },
+  {
+    "name": "CAMPAIGN_CODE_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_CAMPAIGN_CODE_LENGTH'"
+  },
+  {
+    "name": "LOTCONTROLUSED",
+    "type": "java.lang.String",
+    "description": "A description for 'LOTCONTROLUSED'"
+  },
+  {
+    "name": "SERIALNUMBERUSED",
+    "type": "java.lang.String",
+    "description": "A description for 'SERIALNUMBERUSED'"
+  },
+  {
+    "name": "INVENTORY_SOURCE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVENTORY_SOURCE'"
+  },
+  {
+    "name": "ADD_OR_SUBTRACT",
+    "type": "java.lang.String",
+    "description": "A description for 'ADD_OR_SUBTRACT'"
+  },
+  {
+    "name": "ALLOCATE_OR_CANCEL_OR_REQUEST_OR_INQUIRY",
+    "type": "java.lang.String",
+    "description": "A description for 'ALLOCATE_OR_CANCEL_OR_REQUEST_OR_INQUIRY'"
+  },
+  {
+    "name": "QUANTITY",
+    "type": "java.lang.String",
+    "description": "A description for 'QUANTITY'"
+  },
+  {
+    "name": "ALLOCATE",
+    "type": "java.lang.String",
+    "description": "A description for 'ALLOCATE'"
+  },
+  {
+    "name": "CANCEL",
+    "type": "java.lang.String",
+    "description": "A description for 'CANCEL'"
+  },
+  {
+    "name": "REQUEST",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUEST'"
+  },
+  {
+    "name": "INQUIRY",
+    "type": "java.lang.String",
+    "description": "A description for 'INQUIRY'"
+  },
+  {
+    "name": "COMPANY_CODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_CODE_MANDATORY'"
+  },
+  {
+    "name": "COMPANY_CODE_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_CODE_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "DIVISION_CODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'DIVISION_CODE_MANDATORY'"
+  },
+  {
+    "name": "DIVISION_CODE_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'DIVISION_CODE_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "WAREHOUSE_CODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'WAREHOUSE_CODE_MANDATORY'"
+  },
+  {
+    "name": "WAREHOUSE_CODE_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'WAREHOUSE_CODE_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "CHANNEL_NAME_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_NAME_MANDATORY'"
+  },
+  {
+    "name": "CHANNEL_NAME_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_NAME_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "INVALID_API_REQUEST",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_API_REQUEST'"
+  },
+  {
+    "name": "API_REQUEST_NULL",
+    "type": "java.lang.String",
+    "description": "A description for 'API_REQUEST_NULL'"
+  },
+  {
+    "name": "ITEM_DESC_NULL",
+    "type": "java.lang.String",
+    "description": "A description for 'ITEM_DESC_NULL'"
+  },
+  {
+    "name": "ITEM_KEY_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ITEM_KEY_MANDATORY'"
+  },
+  {
+    "name": "PACKAGEBARCODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'PACKAGEBARCODE_MANDATORY'"
+  },
+  {
+    "name": "PACKAGEBARCODE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'PACKAGEBARCODE_BLANK'"
+  },
+  {
+    "name": "INVALID_COMPANY_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_COMPANY_LENGTH'"
+  },
+  {
+    "name": "INVALID_DIVISION_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_DIVISION_LENGTH'"
+  },
+  {
+    "name": "INVALID_WAREHOUSE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_WAREHOUSE_LENGTH'"
+  },
+  {
+    "name": "INVALID_CHANNEL_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CHANNEL_LENGTH'"
+  },
+  {
+    "name": "INVALID_CAMPAIGN_CODE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CAMPAIGN_CODE_LENGTH'"
+  },
+  {
+    "name": "INVALID_RESPONSE_DESC",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_RESPONSE_DESC'"
+  },
+  {
+    "name": "INVALID_QTY",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_QTY'"
+  },
+  {
+    "name": "ADD_REQUEST",
+    "type": "java.lang.String",
+    "description": "A description for 'ADD_REQUEST'"
+  },
+  {
+    "name": "CHANGE_REQUEST",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANGE_REQUEST'"
+  },
+  {
+    "name": "INVALID_PACKAGEBARCODE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_PACKAGEBARCODE_LENGTH'"
+  },
+  {
+    "name": "INVALID_LOTCONTROLUSED",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_LOTCONTROLUSED'"
+  },
+  {
+    "name": "INVALID_SERIALNUMBERUSED",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_SERIALNUMBERUSED'"
+  },
+  {
+    "name": "INVALID_ITEM_API_REQUEST_TYPE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_ITEM_API_REQUEST_TYPE'"
+  },
+  {
+    "name": "ITEM_NOT_FOUND",
+    "type": "java.lang.String",
+    "description": "A description for 'ITEM_NOT_FOUND'"
+  },
+  {
+    "name": "ITEM_ALREADY_EXISTS",
+    "type": "java.lang.String",
+    "description": "A description for 'ITEM_ALREADY_EXISTS'"
+  },
+  {
+    "name": "ITEM_ADDED",
+    "type": "java.lang.String",
+    "description": "A description for 'ITEM_ADDED'"
+  },
+  {
+    "name": "ITEM_CHANGED",
+    "type": "java.lang.String",
+    "description": "A description for 'ITEM_CHANGED'"
+  },
+  {
+    "name": "INVALID_INVENTORY_SOURCE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_INVENTORY_SOURCE'"
+  },
+  {
+    "name": "REQUEST_NOT_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUEST_NOT_BLANK'"
+  },
+  {
+    "name": "AVAILABLE_QTY_LESS_THAN_REQUESTED",
+    "type": "java.lang.String",
+    "description": "A description for 'AVAILABLE_QTY_LESS_THAN_REQUESTED'"
+  },
+  {
+    "name": "WMS_SKU_REQUEST_FULFILLED",
+    "type": "java.lang.String",
+    "description": "A description for 'WMS_SKU_REQUEST_FULFILLED'"
+  },
+  {
+    "name": "INVALID_WMS_API_REQUEST_TYPE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_WMS_API_REQUEST_TYPE'"
+  },
+  {
+    "name": "SKU_NOT_FOUND",
+    "type": "java.lang.String",
+    "description": "A description for 'SKU_NOT_FOUND'"
+  },
+  {
+    "name": "INVALID_CATALOG_API_REQUEST_TYPE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CATALOG_API_REQUEST_TYPE'"
+  },
+  {
+    "name": "CATALOG_SKU_REQUEST_FULFILLED",
+    "type": "java.lang.String",
+    "description": "A description for 'CATALOG_SKU_REQUEST_FULFILLED'"
+  },
+  {
+    "name": "ORDER_NUMBER_NOT_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'ORDER_NUMBER_NOT_BLANK'"
+  },
+  {
+    "name": "INVALID_SHIP_DATE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_SHIP_DATE'"
+  },
+  {
+    "name": "ORDER_NUMBER_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'ORDER_NUMBER_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "AUTO_REPLENISH",
+    "type": "java.lang.String",
+    "description": "A description for 'AUTO_REPLENISH'"
+  },
+  {
+    "name": "AUTO_REPLENISH_NO",
+    "type": "java.lang.String",
+    "description": "A description for 'AUTO_REPLENISH_NO'"
+  },
+  {
+    "name": "CAMPAIGN_ACTIVE",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_ACTIVE'"
+  },
+  {
+    "name": "CAMPAIGN_MODE",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_MODE'"
+  },
+  {
+    "name": "CHANNEL_NAME_REQUEST",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_NAME_REQUEST'"
+  },
+  {
+    "name": "CAMPAIGN_CODE_NOT_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_CODE_NOT_BLANK'"
+  },
+  {
+    "name": "INVALID_CAMPAIGN_API_REQUEST_TYPE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CAMPAIGN_API_REQUEST_TYPE'"
+  },
+  {
+    "name": "INVALID_AUTO_REPLENISH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_AUTO_REPLENISH'"
+  },
+  {
+    "name": "INVALID_CAMPAIGN_ACTIVE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CAMPAIGN_ACTIVE'"
+  },
+  {
+    "name": "CAMPAIGN_ALREADY_EXISTS",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_ALREADY_EXISTS'"
+  },
+  {
+    "name": "CAMPAIGN_ADDED",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_ADDED'"
+  },
+  {
+    "name": "CAMPAIGN_UPDATED",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_UPDATED'"
+  },
+  {
+    "name": "CAMPAIGN_DETAIL_REQUEST_FULFILLED",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_DETAIL_REQUEST_FULFILLED'"
+  },
+  {
+    "name": "AVAILABLE_QTY_LESS_THAN_PROTECTED_QTY",
+    "type": "java.lang.String",
+    "description": "A description for 'AVAILABLE_QTY_LESS_THAN_PROTECTED_QTY'"
+  },
+  {
+    "name": "INVALID_CAMPAIGN_START_DATE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CAMPAIGN_START_DATE'"
+  },
+  {
+    "name": "INVALID_CAMPAIGN_END_DATE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CAMPAIGN_END_DATE'"
+  },
+  {
+    "name": "MAX_QTY_LESS_THAN_MIN_QTY",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_QTY_LESS_THAN_MIN_QTY'"
+  },
+  {
+    "name": "INVALID_MIN_QTY",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_MIN_QTY'"
+  },
+  {
+    "name": "INVALID_PROTECTIVE_QTY",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_PROTECTIVE_QTY'"
+  },
+  {
+    "name": "INVALID_CHANNEL",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CHANNEL'"
+  },
+  {
+    "name": "INVALID_CAMPAIGN_MODE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CAMPAIGN_MODE'"
+  },
+  {
+    "name": "CAMPAIGN_STARTDATE_INVALID",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_STARTDATE_INVALID'"
+  },
+  {
+    "name": "CAMPAIGN_ENDDATE_INVALID",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_ENDDATE_INVALID'"
+  },
+  {
+    "name": "INVALID_MAX_QTY",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_MAX_QTY'"
+  },
+  {
+    "name": "ORDER_TYPE",
+    "type": "java.lang.String",
+    "description": "A description for 'ORDER_TYPE'"
+  },
+  {
+    "name": "INVALID_ORDER_TYPE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_ORDER_TYPE'"
+  },
+  {
+    "name": "CHANNEL_CATALOG",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_CATALOG'"
+  },
+  {
+    "name": "CHANNEL_CATALOG",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_CATALOG'"
+  },
+  {
+    "name": "CAMPAIGN_CODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_CODE_MANDATORY'"
+  },
+  {
+    "name": "CAMPAIGN_CODE_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_CODE_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "SKU_ALREADY_EXISTS",
+    "type": "java.lang.String",
+    "description": "A description for 'SKU_ALREADY_EXISTS'"
+  },
+  {
+    "name": "SKU_ALREADY_EXISTS_IN_CAMPAIGN",
+    "type": "java.lang.String",
+    "description": "A description for 'SKU_ALREADY_EXISTS_IN_CAMPAIGN'"
+  },
+  {
+    "name": "MAX_QTY_BETWEEN_MIN_AND_PRIOTECT",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_QTY_BETWEEN_MIN_AND_PRIOTECT'"
+  },
+  {
+    "name": "MAX_QTY_BETWEEN_MIN_AND_PROTECT",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_QTY_BETWEEN_MIN_AND_PROTECT'"
+  },
+  {
+    "name": "MAX_QTY_NOT_BETWEEN_MIN_AND_PROTECT",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_QTY_NOT_BETWEEN_MIN_AND_PROTECT'"
+  },
+  {
+    "name": "DATETIME_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'DATETIME_MANDATORY'"
+  },
+  {
+    "name": "SKUBARCODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'SKUBARCODE_MANDATORY'"
+  },
+  {
+    "name": "SKUBARCODE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'SKUBARCODE_BLANK'"
+  },
+  {
+    "name": "INVALID_SKUBARCODE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_SKUBARCODE_LENGTH'"
+  },
+  {
+    "name": "MAX_SKUBARCODE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_SKUBARCODE_LENGTH'"
+  },
+  {
+    "name": "DATETIME_INVALID",
+    "type": "java.lang.String",
+    "description": "A description for 'DATETIME_INVALID'"
+  },
+  {
+    "name": "CAMPAIGN_IS_NOT_AVAILABLE",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_IS_NOT_AVAILABLE'"
+  },
+  {
+    "name": "INVALID_CAMPAIGN_HEADER",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CAMPAIGN_HEADER'"
+  },
+  {
+    "name": "INVALID_CAMPAIGN_DETAIL",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CAMPAIGN_DETAIL'"
+  },
+  {
+    "name": "UNKNOWN_CHANNEL",
+    "type": "java.lang.String",
+    "description": "A description for 'UNKNOWN_CHANNEL'"
+  },
+  {
+    "name": "UNKNOWN_MODE",
+    "type": "java.lang.String",
+    "description": "A description for 'UNKNOWN_MODE'"
+  },
+  {
+    "name": "INVALID_WEB_INVENTORY_SOURCE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_WEB_INVENTORY_SOURCE'"
+  },
+  {
+    "name": "ORDER_TYPE_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'ORDER_TYPE_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "WEB_INVENTORY_SOURCE",
+    "type": "java.lang.String",
+    "description": "A description for 'WEB_INVENTORY_SOURCE'"
+  },
+  {
+    "name": "CAMPAIGN_REQUESTHISTORY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_REQUESTHISTORY_PATH'"
+  },
+  {
+    "name": "ROLE_CAMPAIGN_REQUESTHISTORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_CAMPAIGN_REQUESTHISTORY'"
+  },
+  {
+    "name": "CAMPAIGN_RESPONSEHISTORY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_RESPONSEHISTORY_PATH'"
+  },
+  {
+    "name": "ROLE_CAMPAIGN_RESPONSEHISTORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_CAMPAIGN_RESPONSEHISTORY'"
+  },
+  {
+    "name": "USER_PREFIX",
+    "type": "java.lang.String",
+    "description": "A description for 'USER_PREFIX'"
+  },
+  {
+    "name": "spring",
+    "type": "java.lang.String",
+    "description": "A description for 'spring'"
+  },
+  {
+    "name": "UPDATE_MODE",
+    "type": "java.lang.String",
+    "description": "A description for 'UPDATE_MODE'"
+  },
+  {
+    "name": "CREATE_MODE",
+    "type": "java.lang.String",
+    "description": "A description for 'CREATE_MODE'"
+  },
+  {
+    "name": "CAMPAIGN_ACTIVE_NO",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_ACTIVE_NO'"
+  },
+  {
+    "name": "RESPONSEDESC_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSEDESC_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "RESPONSE_DESC_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSE_DESC_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "CATALOG_CHANNEL",
+    "type": "java.lang.String",
+    "description": "A description for 'CATALOG_CHANNEL'"
+  },
+  {
+    "name": "RESPONSE_DESC_FIELD_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSE_DESC_FIELD_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "RESPONSE_DESC_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSE_DESC_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "MANUFACTURING_INVENTORY_KEY_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'MANUFACTURING_INVENTORY_KEY_MANDATORY'"
+  },
+  {
+    "name": "MANUFACTURING_PLANT_CODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'MANUFACTURING_PLANT_CODE_MANDATORY'"
+  },
+  {
+    "name": "MANUFACTURING_PLANT_CODE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'MANUFACTURING_PLANT_CODE_BLANK'"
+  },
+  {
+    "name": "MFG_SKU_REQUEST_FULFILLED",
+    "type": "java.lang.String",
+    "description": "A description for 'MFG_SKU_REQUEST_FULFILLED'"
+  },
+  {
+    "name": "INVALID_MFG_API_REQUEST_TYPE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_MFG_API_REQUEST_TYPE'"
+  },
+  {
+    "name": "INVALID_CHANNEL_API_REQUEST_TYPE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_CHANNEL_API_REQUEST_TYPE'"
+  },
+  {
+    "name": "CHANNEL_SKU_REQUEST_FULFILLED",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_SKU_REQUEST_FULFILLED'"
+  },
+  {
+    "name": "CHANNEL_API_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_API_PATH'"
+  },
+  {
+    "name": "ROLE_CHANNEL",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_CHANNEL'"
+  },
+  {
+    "name": "MANUFACTURING_PLANT_CODE_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'MANUFACTURING_PLANT_CODE_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "check-user-scopes",
+    "type": "java.lang.String",
+    "description": "A description for 'check-user-scopes'"
+  },
+  {
+    "name": "ITEM_IS_NOT_FOUND",
+    "type": "java.lang.String",
+    "description": "A description for 'ITEM_IS_NOT_FOUND'"
+  },
+  {
+    "name": "AVAILABLE_QTY_IS_ZERO",
+    "type": "java.lang.String",
+    "description": "A description for 'AVAILABLE_QTY_IS_ZERO'"
+  },
+  {
+    "name": "CAMPAIGN_HEADER_ALREADY_EXISTS",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_HEADER_ALREADY_EXISTS'"
+  },
+  {
+    "name": "CAMPAIGN_MODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_MODE_MANDATORY'"
+  },
+  {
+    "name": "AVAILABLE_QTY_AND_ONHAND_QTY_LESS_THAN_REQUESTED",
+    "type": "java.lang.String",
+    "description": "A description for 'AVAILABLE_QTY_AND_ONHAND_QTY_LESS_THAN_REQUESTED'"
+  },
+  {
+    "name": "ONHAND_QTY_LESS_THAN_REQUESTED",
+    "type": "java.lang.String",
+    "description": "A description for 'ONHAND_QTY_LESS_THAN_REQUESTED'"
+  },
+  {
+    "name": "check-user-scopes",
+    "type": "java.lang.String",
+    "description": "A description for 'check-user-scopes'"
+  },
+  {
+    "name": "USERS_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'USERS_PATH'"
+  },
+  {
+    "name": "SKU_IS_NOT_FOUND",
+    "type": "java.lang.String",
+    "description": "A description for 'SKU_IS_NOT_FOUND'"
+  },
+  {
+    "name": "MFG_INVENTORY_SOURCE",
+    "type": "java.lang.String",
+    "description": "A description for 'MFG_INVENTORY_SOURCE'"
+  },
+  {
+    "name": "INVALID_MFG_INVENTORY_SOURCE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_MFG_INVENTORY_SOURCE'"
+  },
+  {
+    "name": "INVALID_MFG_PLANT_CODE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_MFG_PLANT_CODE_LENGTH'"
+  },
+  {
+    "name": "MAX_MFG_PLANT_CODE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_MFG_PLANT_CODE_LENGTH'"
+  },
+  {
+    "name": "CHANNEL_MFG_SKU_REQUEST_FULFILLED",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_MFG_SKU_REQUEST_FULFILLED'"
+  },
+  {
+    "name": "MANUFACTURING_PLANT_CODE_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'MANUFACTURING_PLANT_CODE_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "SALES_ORDER_NUMBER_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'SALES_ORDER_NUMBER_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "SALES_ORDER_NUMBER_NOT_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'SALES_ORDER_NUMBER_NOT_BLANK'"
+  },
+  {
+    "name": "CODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'CODE_MANDATORY'"
+  },
+  {
+    "name": "CODE_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'CODE_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_LENGTH'"
+  },
+  {
+    "name": "MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_LENGTH'"
+  },
+  {
+    "name": "check-user-scopes",
+    "type": "java.lang.String",
+    "description": "A description for 'check-user-scopes'"
+  },
+  {
+    "name": "check-user-scopes",
+    "type": "java.lang.String",
+    "description": "A description for 'check-user-scopes'"
+  },
+  {
+    "name": "check-user-scopes",
+    "type": "java.lang.String",
+    "description": "A description for 'check-user-scopes'"
+  },
+  {
+    "name": "MFG_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'MFG_PATH'"
+  },
+  {
+    "name": "ROLE_MFG",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_MFG'"
+  },
+  {
+    "name": "WMSINVENTORY_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'WMSINVENTORY_PATH'"
+  },
+  {
+    "name": "ROLE_WMSINVENTORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_WMSINVENTORY'"
+  },
+  {
+    "name": "WMSINVENTORYPATH",
+    "type": "java.lang.String",
+    "description": "A description for 'WMSINVENTORYPATH'"
+  },
+  {
+    "name": "ITEMPATH",
+    "type": "java.lang.String",
+    "description": "A description for 'ITEMPATH'"
+  },
+  {
+    "name": "CHANNELAPI_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNELAPI_PATH'"
+  },
+  {
+    "name": "ROLE_CHANNELAPI",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_CHANNELAPI'"
+  },
+  {
+    "name": "CHANNELAPIPATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNELAPIPATH'"
+  },
+  {
+    "name": "CAMPAIGNPATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGNPATH'"
+  },
+  {
+    "name": "MFGPATH",
+    "type": "java.lang.String",
+    "description": "A description for 'MFGPATH'"
+  },
+  {
+    "name": "REQUESTHISTORYPATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUESTHISTORYPATH'"
+  },
+  {
+    "name": "RESPONSEHISTORYPATH",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSEHISTORYPATH'"
+  },
+  {
+    "name": "CAMPAIGN_REQUESTHISTORYPATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_REQUESTHISTORYPATH'"
+  },
+  {
+    "name": "ROLE_CAMPAIGNREQUESTHISTORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_CAMPAIGNREQUESTHISTORY'"
+  },
+  {
+    "name": "CAMPAIGN_RESPONSEHISTORYPATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_RESPONSEHISTORYPATH'"
+  },
+  {
+    "name": "ROLE_CAMPAIGNRESPONSEHISTORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ROLE_CAMPAIGNRESPONSEHISTORY'"
+  },
+  {
+    "name": "updatesubject",
+    "type": "java.lang.String",
+    "description": "A description for 'updatesubject'"
+  },
+  {
+    "name": "updateSubject",
+    "type": "java.lang.String",
+    "description": "A description for 'updateSubject'"
+  },
+  {
+    "name": "updatedSubject",
+    "type": "java.lang.String",
+    "description": "A description for 'updatedSubject'"
+  },
+  {
+    "name": "registrationSubject",
+    "type": "java.lang.String",
+    "description": "A description for 'registrationSubject'"
+  },
+  {
+    "name": "updationSubject",
+    "type": "java.lang.String",
+    "description": "A description for 'updationSubject'"
+  },
+  {
+    "name": "LOGIN_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'LOGIN_PATH'"
+  },
+  {
+    "name": "ONHAND_QTY_IS_ZERO",
+    "type": "java.lang.String",
+    "description": "A description for 'ONHAND_QTY_IS_ZERO'"
+  },
+  {
+    "name": "WMS_SKU_NOT_FOUND",
+    "type": "java.lang.String",
+    "description": "A description for 'WMS_SKU_NOT_FOUND'"
+  },
+  {
+    "name": "MFGPLANT_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'MFGPLANT_PATH'"
+  },
+  {
+    "name": "INVALID_WMS_INVENTORY_SOURCE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_WMS_INVENTORY_SOURCE'"
+  },
+  {
+    "name": "INVALID_DATE_TIME_FORMAT",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_DATE_TIME_FORMAT'"
+  },
+  {
+    "name": "DATETIME_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'DATETIME_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "DATETIME_IS_MANDATORY_OR_EMPTY",
+    "type": "java.lang.String",
+    "description": "A description for 'DATETIME_IS_MANDATORY_OR_EMPTY'"
+  },
+  {
+    "name": "DATETIME_IS_NOT_SPECIFIED_OR_EMPTY",
+    "type": "java.lang.String",
+    "description": "A description for 'DATETIME_IS_NOT_SPECIFIED_OR_EMPTY'"
+  },
+  {
+    "name": "WAREHOUSE_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'WAREHOUSE_PATH'"
+  },
+  {
+    "name": "CAMPAIGN_HEADERS_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_HEADERS_PATH'"
+  },
+  {
+    "name": "CAMPAIGN_DETAILS_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_DETAILS_PATH'"
+  },
+  {
+    "name": "INVALID_SKU_ATTRIBUTE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_SKU_ATTRIBUTE_LENGTH'"
+  },
+  {
+    "name": "MAX_SKU_ATTRIBUTE_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MAX_SKU_ATTRIBUTE_LENGTH'"
+  },
+  {
+    "name": "API_NAME_IS_NOT_SPECIFIED_OR_EMPTY",
+    "type": "java.lang.String",
+    "description": "A description for 'API_NAME_IS_NOT_SPECIFIED_OR_EMPTY'"
+  },
+  {
+    "name": "CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "CATALOG_SHIP_DATE",
+    "type": "java.lang.String",
+    "description": "A description for 'CATALOG_SHIP_DATE'"
+  },
+  {
+    "name": "ADMINS_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'ADMINS_PATH'"
+  },
+  {
+    "name": "MFG_PLANT_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'MFG_PLANT_PATH'"
+  },
+  {
+    "name": "MODE_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'MODE_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "INVENTORY_SOURCE_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'INVENTORY_SOURCE_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "PRODUCT_STATUS_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'PRODUCT_STATUS_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "SKU_ATTRIBUTE_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'SKU_ATTRIBUTE_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "CAMPAIGN_ACTIVE_YES",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_ACTIVE_YES'"
+  },
+  {
+    "name": "CAMPAIGN_IS_NOT_ACTIVE",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_IS_NOT_ACTIVE'"
+  },
+  {
+    "name": "CAMPAIGN_ACTIVE_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_ACTIVE_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "AUTO_REPLENISH_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'AUTO_REPLENISH_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "GIV_ADMIN_USER_NAME",
+    "type": "java.lang.String",
+    "description": "A description for 'GIV_ADMIN_USER_NAME'"
+  },
+  {
+    "name": "GIV_ADMIN_NAME",
+    "type": "java.lang.String",
+    "description": "A description for 'GIV_ADMIN_NAME'"
+  },
+  {
+    "name": "GIV_ADMIN_EMAIL",
+    "type": "java.lang.String",
+    "description": "A description for 'GIV_ADMIN_EMAIL'"
+  },
+  {
+    "name": "GIV_ADMIN_PASSWORD",
+    "type": "java.lang.String",
+    "description": "A description for 'GIV_ADMIN_PASSWORD'"
+  },
+  {
+    "name": "USERNAME_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'USERNAME_MANDATORY'"
+  },
+  {
+    "name": "USERNAME_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'USERNAME_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "NAME_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'NAME_MANDATORY'"
+  },
+  {
+    "name": "NAME_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'NAME_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "EMAIL_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'EMAIL_MANDATORY'"
+  },
+  {
+    "name": "EMAIL_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'EMAIL_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "PASSWORD_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'PASSWORD_MANDATORY'"
+  },
+  {
+    "name": "PASSWORD_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'PASSWORD_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "ADMINNAME_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ADMINNAME_MANDATORY'"
+  },
+  {
+    "name": "ADMINNAME_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'ADMINNAME_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "FULLNAME_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'FULLNAME_MANDATORY'"
+  },
+  {
+    "name": "FULLNAME_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'FULLNAME_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "API_ENABLED_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'API_ENABLED_MANDATORY'"
+  },
+  {
+    "name": "API_ENABLED_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'API_ENABLED_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "ADD_SUBTRACT_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'ADD_SUBTRACT_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "PRODUCTION_ORDER_NUMBER_FIELD_IS_REQUIRED",
+    "type": "java.lang.String",
+    "description": "A description for 'PRODUCTION_ORDER_NUMBER_FIELD_IS_REQUIRED'"
+  },
+  {
+    "name": "PRODUCTION_ORDER_NUMBER_FIELD_IS_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'PRODUCTION_ORDER_NUMBER_FIELD_IS_MANDATORY'"
+  },
+  {
+    "name": "INVALID_DATE_TIME_STAMP",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_DATE_TIME_STAMP'"
+  },
+  {
+    "name": "COMPANY_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "server.servlet.session-timeout",
+    "type": "java.lang.String",
+    "description": "A description for 'server.servlet.session-timeout'"
+  },
+  {
+    "name": "REQUESTHISTORYGETALL_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUESTHISTORYGETALL_PATH'"
+  },
+  {
+    "name": "REQUESTHISTORYGETALLCHANNELS_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUESTHISTORYGETALLCHANNELS_PATH'"
+  },
+  {
+    "name": "REQUESTHISTORYITEMSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUESTHISTORYITEMSEARCH_PATH'"
+  },
+  {
+    "name": "REQUESTHISTORYINVENTORYSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUESTHISTORYINVENTORYSEARCH_PATH'"
+  },
+  {
+    "name": "REQUESTCHANNELSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUESTCHANNELSEARCH_PATH'"
+  },
+  {
+    "name": "REQUESTMFGINVENTORYSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUESTMFGINVENTORYSEARCH_PATH'"
+  },
+  {
+    "name": "CODE_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'CODE_INVALID_LENGTH'"
+  },
+  {
+    "name": "COMPANY_CODE_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_CODE_INVALID_LENGTH'"
+  },
+  {
+    "name": "DIVISION_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'DIVISION_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "RESPONSEHISTORYGETALL_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSEHISTORYGETALL_PATH'"
+  },
+  {
+    "name": "RESPONSEHISTORYGETALLCHANNELS_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSEHISTORYGETALLCHANNELS_PATH'"
+  },
+  {
+    "name": "RESPONSEHISTORYITEMSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSEHISTORYITEMSEARCH_PATH'"
+  },
+  {
+    "name": "RESPONSEHISTORYINVENTORYSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSEHISTORYINVENTORYSEARCH_PATH'"
+  },
+  {
+    "name": "RESPONSECHANNELSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSECHANNELSEARCH_PATH'"
+  },
+  {
+    "name": "RESPONSEMFGINVENTORYSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSEMFGINVENTORYSEARCH_PATH'"
+  },
+  {
+    "name": "REQUESTCAMPAIGNSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'REQUESTCAMPAIGNSEARCH_PATH'"
+  },
+  {
+    "name": "RESPONSECAMPAIGNSEARCH_PATH",
+    "type": "java.lang.String",
+    "description": "A description for 'RESPONSECAMPAIGNSEARCH_PATH'"
+  },
+  {
+    "name": "CODE_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'CODE_MAX_LENGTH'"
+  },
+  {
+    "name": "COMPANY_CODE_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_CODE_MAX_LENGTH'"
+  },
+  {
+    "name": "DIVISION_CODE_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'DIVISION_CODE_MAX_LENGTH'"
+  },
+  {
+    "name": "WAREHOUSE_CODE_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'WAREHOUSE_CODE_MAX_LENGTH'"
+  },
+  {
+    "name": "CHANNEL_CODE_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_CODE_MAX_LENGTH'"
+  },
+  {
+    "name": "CHANNEL_NAME_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_NAME_MAX_LENGTH'"
+  },
+  {
+    "name": "MANUFACTURING_PLANT_CODE_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MANUFACTURING_PLANT_CODE_MAX_LENGTH'"
+  },
+  {
+    "name": "DIVISION_CODE_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'DIVISION_CODE_INVALID_LENGTH'"
+  },
+  {
+    "name": "WAREHOUSE_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'WAREHOUSE_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "WAREHOUSE_CODE_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'WAREHOUSE_CODE_INVALID_LENGTH'"
+  },
+  {
+    "name": "CHANNEL_CODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_CODE_MANDATORY'"
+  },
+  {
+    "name": "CHANNEL_CODE_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_CODE_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "CHANNEL_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "CHANNEL_CODE_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_CODE_INVALID_LENGTH'"
+  },
+  {
+    "name": "PACKAGEBARCODE_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'PACKAGEBARCODE_MAX_LENGTH'"
+  },
+  {
+    "name": "SKUBARCODE_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'SKUBARCODE_MAX_LENGTH'"
+  },
+  {
+    "name": "ADD_SUBTRACT_FIELD_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'ADD_SUBTRACT_FIELD_MANDATORY'"
+  },
+  {
+    "name": "PACKAGEBARCODE_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'PACKAGEBARCODE_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "PACKAGEBARCODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'PACKAGEBARCODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "PACKAGEBARCODE_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'PACKAGEBARCODE_INVALID_LENGTH'"
+  },
+  {
+    "name": "SKUBARCODE_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'SKUBARCODE_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "SKUBARCODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'SKUBARCODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "SKUBARCODE_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'SKUBARCODE_INVALID_LENGTH'"
+  },
+  {
+    "name": "MANUFACTURING_PLANT_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'MANUFACTURING_PLANT_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "MANUFACTURING_PLANT_CODE_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'MANUFACTURING_PLANT_CODE_INVALID_LENGTH'"
+  },
+  {
+    "name": "CHANNEL_NAME_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_NAME_INVALID_LENGTH'"
+  },
+  {
+    "name": "CHANNEL_NAME_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'CHANNEL_NAME_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "NAME_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'NAME_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "NAME_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'NAME_INVALID_LENGTH'"
+  },
+  {
+    "name": "CAMPAIGN_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_CODE_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "CAMPAIGN_CODE_INVALID_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_CODE_INVALID_LENGTH'"
+  },
+  {
+    "name": "MFG_SKU_NOT_FOUND",
+    "type": "java.lang.String",
+    "description": "A description for 'MFG_SKU_NOT_FOUND'"
+  },
+  {
+    "name": "SHIPDATE_IS_NOT_SPECIFIED_OR_EMPTY",
+    "type": "java.lang.String",
+    "description": "A description for 'SHIPDATE_IS_NOT_SPECIFIED_OR_EMPTY'"
+  },
+  {
+    "name": "START_DATE_FIELD_IS_NOT_SPECIFIED_OR_EMPTY",
+    "type": "java.lang.String",
+    "description": "A description for 'START_DATE_FIELD_IS_NOT_SPECIFIED_OR_EMPTY'"
+  },
+  {
+    "name": "END_DATE_FIELD_IS_NOT_SPECIFIED_OR_EMPTY",
+    "type": "java.lang.String",
+    "description": "A description for 'END_DATE_FIELD_IS_NOT_SPECIFIED_OR_EMPTY'"
+  },
+  {
+    "name": "INVALID_QTY_FIELD",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_QTY_FIELD'"
+  },
+  {
+    "name": "AVAILABLE_QTY_AND_ONHAND_QTY_ARE_ZERO",
+    "type": "java.lang.String",
+    "description": "A description for 'AVAILABLE_QTY_AND_ONHAND_QTY_ARE_ZERO'"
+  },
+  {
+    "name": "ALLOCATED_QTY_LESS_THAN_REQUESTED_QTY",
+    "type": "java.lang.String",
+    "description": "A description for 'ALLOCATED_QTY_LESS_THAN_REQUESTED_QTY'"
+  },
+  {
+    "name": "TRANSACTION_NUMBER_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'TRANSACTION_NUMBER_MANDATORY'"
+  },
+  {
+    "name": "TRANSACTION_NUMBER_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'TRANSACTION_NUMBER_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "SEASON_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'SEASON_MANDATORY'"
+  },
+  {
+    "name": "SEASON_YEAR_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'SEASON_YEAR_MANDATORY'"
+  },
+  {
+    "name": "STYLE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'STYLE_MANDATORY'"
+  },
+  {
+    "name": "STYLE_SFX_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'STYLE_SFX_MANDATORY'"
+  },
+  {
+    "name": "COLOR_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'COLOR_MANDATORY'"
+  },
+  {
+    "name": "COLOR_SFX_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'COLOR_SFX_MANDATORY'"
+  },
+  {
+    "name": "SEC_DIMENSION_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'SEC_DIMENSION_MANDATORY'"
+  },
+  {
+    "name": "QUALITY_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'QUALITY_MANDATORY'"
+  },
+  {
+    "name": "SIZERNGECODE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'SIZERNGECODE_MANDATORY'"
+  },
+  {
+    "name": "SIZERELPOSNIN_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'SIZERELPOSNIN_MANDATORY'"
+  },
+  {
+    "name": "INVENTORY_TYPE_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'INVENTORY_TYPE_MANDATORY'"
+  },
+  {
+    "name": "INVALID_INVENTORY_TYPE",
+    "type": "java.lang.String",
+    "description": "A description for 'INVALID_INVENTORY_TYPE'"
+  },
+  {
+    "name": "COUNTRY_OF_ORIGIN_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'COUNTRY_OF_ORIGIN_MANDATORY'"
+  },
+  {
+    "name": "LOT_NUMBER_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'LOT_NUMBER_MANDATORY'"
+  },
+  {
+    "name": "COMPANY_MAX_LENGTH",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_MAX_LENGTH'"
+  },
+  {
+    "name": "COMPANY_MANDATORY",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_MANDATORY'"
+  },
+  {
+    "name": "COMPANY_CANNOT_BE_BLANK",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_CANNOT_BE_BLANK'"
+  },
+  {
+    "name": "COMPANY_CANNOT_CONTAIN_SPECIAL_CHARACTERS",
+    "type": "java.lang.String",
+    "description": "A description for 'COMPANY_CANNOT_CONTAIN_SPECIAL_CHARACTERS'"
+  },
+  {
+    "name": "PROTECTIVE_QTY_EQUAL_TO_MAX_QTY",
+    "type": "java.lang.String",
+    "description": "A description for 'PROTECTIVE_QTY_EQUAL_TO_MAX_QTY'"
+  },
+  {
+    "name": "FAILURE_RESPONSE",
+    "type": "java.lang.String",
+    "description": "A description for 'FAILURE_RESPONSE'"
+  },
+  {
+    "name": "SUCCESS_RESPONSE",
+    "type": "java.lang.String",
+    "description": "A description for 'SUCCESS_RESPONSE'"
+  },
+  {
+    "name": "PARTIAL_SUCCESS",
+    "type": "java.lang.String",
+    "description": "A description for 'PARTIAL_SUCCESS'"
+  },
+  {
+    "name": "PARTIAL_RESPONSE",
+    "type": "java.lang.String",
+    "description": "A description for 'PARTIAL_RESPONSE'"
+  },
+  {
+    "name": "CAMPAIGN_ACTION",
+    "type": "java.lang.String",
+    "description": "A description for 'CAMPAIGN_ACTION'"
+  },
+  {
+    "name": "CREATE_ACTION",
+    "type": "java.lang.String",
+    "description": "A description for 'CREATE_ACTION'"
+  },
+  {
+    "name": "UPDATE_ACTION",
+    "type": "java.lang.String",
+    "description": "A description for 'UPDATE_ACTION'"
+  }
+]}

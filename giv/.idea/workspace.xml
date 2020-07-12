@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="afa78d94-315f-41cf-9bbd-e42bb2a9d036" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_jaxb_annotations_2_10_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_andrewoma_dexx_dexx_collections_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_vlsi_compactmap_compactmap_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_8_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_16_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_archaius_archaius_core_0_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_client_1_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_eureka_eureka_core_1_8_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_core_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_netflix_commons_netflix_commons_util_0_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_core_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_eureka_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_httpclient_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_loadbalancer_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_ribbon_ribbon_transport_2_2_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_core_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_servo_servo_internal_0_10_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_14_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_server_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_jersey_jersey_servlet_1_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_xstream_xstream_1_4_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_unboundid_unboundid_ldapsdk_4_0_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_buffer_4_1_22_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_4_1_22_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_22_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_common_4_1_22_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_resolver_4_1_22_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_4_1_22_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_4_1_22_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_transport_native_unix_common_4_1_22_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_1_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_context_log4j2_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_http_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpasyncclient_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_httpclient_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_kafka_clients_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_servlet_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_rabbit_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_web_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_brave_brave_instrumentation_spring_webmvc_4_18_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter2_zipkin_reporter_2_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_zipkin2_zipkin_2_6_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_stream_stax_api_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__joda_time_joda_time_2_9_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_7_10.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_10_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_8_5_28.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_atteo_evo_inflector_1_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcpkix_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bouncycastle_bcprov_jdk15on_1_56.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_stax2_api_3_1_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_woodstox_woodstox_core_asl_4_4_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_flywaydb_flyway_core_6_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_29.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_7_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_15_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_autoconfigure_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_rest_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_freemarker_2_2_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_0_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_0_0_M9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_0_0_M9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_archaius_2_0_0_M8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_0_0_M8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_0_0_M8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_server_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_ribbon_2_0_0_M8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_core_2_0_0_M9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_0_0_M9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_archaius_2_0_0_M8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_client_2_0_0_M8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_eureka_server_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_0_M8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_ribbon_2_0_0_M8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_sleuth_2_0_0_M9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_core_3_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_rest_webmvc_3_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_hateoas_spring_hateoas_0_24_0_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_ldap_spring_ldap_core_2_3_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_5_0_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_ldap_5_2_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_rsa_1_0_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_4_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/8/28fc8699055625afe1094d5de06a0988f95c2d1c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/7/577a20484e39758d4b1540055004f2e31ee82451" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/d/9db4c742249cc950fd3ec5e9afc3a6ee5a33f5f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/3/c3112b874ccf623ed89e20dc64fc692b86279e58" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c4681bf49abcf67089b68094171f993fc4597843" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/b/db6ed0ebb633a2d21872290e4204cfcd23c24fbb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/a/faa2231cdaafa34025f91f199a24315d3e4d2bb0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/fff9f4a151d90b28332951d080c0d4d4c6e48212" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/giv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/giv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/build-info.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/giv.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/DataSetup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/GivApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/MessagesConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/jpa/AuditorAwareImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/jpa/JpaConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/security/WebSecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/swagger_config/SwaggerConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/config/upload/FileStorageProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/controllers/ChannelController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/controllers/CompanyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/controllers/DivisionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/controllers/FileController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/controllers/ManufacturingPlantController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/controllers/WarehouseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/BaseIdEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/Channel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/Division.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/DivisionKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/ManufacturingPlant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/ManufacturingPlantKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/UploadFileResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/Warehouse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/entities/WarehouseKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelAlreadyExists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelCodeCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelCodeCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelCodeMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelCodeMaxLengthExceeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelNameCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelNameCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelNameMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelNameMaxLengthExceeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ChannelNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/CodeCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/CodeCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/CodeMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/CompanyAlreadyExists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/CompanyCodeCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/CompanyCodeCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/CompanyCodeMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/CompanyMaxLengthExceeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/CompanyNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/DivisionAlreadyExistsInCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/DivisionCodeCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/DivisionCodeCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/DivisionCodeMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/DivisionMaxLengthExceeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/DivisionNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/DivisionNotFoundInCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ErrorDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/FileNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/FileStorageException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/KeyFieldCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/KeyFieldMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ManufacturingPlantAlreadyExists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ManufacturingPlantAlreadyExistsInCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ManufacturingPlantCodeCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ManufacturingPlantCodeMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ManufacturingPlantMaxLengthExceeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ManufacturingPlantNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/ManufacturingPlantNotFoundInCompany.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/MaxLengthExceeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/NameCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/NameCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/NameMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/RestExceptionHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/TransactionNumberCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/TransactionNumberMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/WarehouseAlreadyExists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/WarehouseCodeCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/WarehouseCodeCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/WarehouseCodeMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/WarehouseMaxLengthExceeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/errors/WarehouseNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/repo/ChannelRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/repo/CompanyRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/repo/DivisionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/repo/ManufacturingPlantRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/repo/WarehouseRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/services/ChannelService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/services/CompanyService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/services/DivisionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/services/FileStorageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/services/ManufacturingPlantService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/services/WarehouseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/BlankValidatorPostRightTrim.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/ChannelValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/CodeValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/CompanyValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/DivisionValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/LengthValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/ManufacturingPlantValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/NameValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/NullValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/core/validation/WarehouseValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/email/EmailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/email/EmailTemplate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/controller/CampaignController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/controller/CampaignRequestHistoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/controller/CampaignResponseHistoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/CampaignDetailDb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/CampaignDetailKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/CampaignHeaderDb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/CampaignHeaderKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/CampaignHistorySearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/CampaignRequestDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/CampaignRequestHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/CampaignResponseDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/CampaignResponseHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/entity/ResponseDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/ActionFieldIsRequired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/AvailableQtyLessThanProtectQty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/CampaignActiveFieldIsRequired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/CampaignCodeCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/CampaignCodeIsMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/CampaignDetailNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/CampaignHeaderAlreadyExists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/CampaignHeaderNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/CampaignIsNotAvailable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/DateTimeStampFieldIsRequired.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/EndDateFieldIsMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/InvalidCampaignAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/InvalidCampaignActive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/InvalidCampaignEndDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/InvalidCampaignStartDate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/InvalidStartDateInUpdate.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/errors/StartDateFieldIsMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/repo/CampaignDetailDbRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/repo/CampaignHeaderDbRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/repo/CampaignRequestDetailRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/repo/CampaignRequestHeaderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/repo/CampaignResponseDetailRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/repo/CampaignResponseHeaderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/search/CampaignSearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/search/CampaignSearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/service/CampaignCreateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/service/CampaignGetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/service/CampaignRequestHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/service/CampaignResponseHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/service/CampaignUpdateService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/service/UpdateProtectQtyInCampaign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/util/CampaignRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/campaign/validation/CampaignValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/controller/ChannelAPIController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/entity/ChannelAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/entity/ChannelAPIResponseDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/entity/ChannelAPIResponseSku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/entity/ChannelAPISku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/entity/ChannelAPISkuWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/errors/AllocatedQtyIsLessThanRequestedQty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/errors/AllocatedQtyZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/errors/AvailableQtyAndProtectQtyZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/errors/AvailableQtyZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/controller/ChannelRequestHistoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/controller/ChannelResponseHistoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/entity/ChannelRequestHistoryHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/entity/ChannelRequestHistorySku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/entity/ChannelResponseHistoryHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/entity/ChannelResponseHistorySku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/entity/HistorySearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/repo/ChannelRequestHistoryHeaderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/repo/ChannelRequestHistorySkuRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/repo/ChannelResponseHistoryHeaderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/repo/ChannelResponseHistorySkuRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/service/ChannelRequestHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/history/service/ChannelResponseHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/service/ChannelAPIService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/channel/validation/ChannelAPIValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/common/key/validation/ItemKeyValidatorForChannelAndCampaign.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/common/key/validation/WmsInventoryKeyValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/entity/BasicLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/ActionMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/AvailableQtyIsZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/AvailableQtyLessThanRequestedQty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/CampaignCodeCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/CampaignCodeMaxLengthExceeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/ColorMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/ColorSfxMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/CountryOfOriginMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/DateCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/DateIsMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/DateTimeIsMandatoryAndCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/InvalidInventoryType.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/InventoryTypeMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/ItemKeyIsMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/LotNumberMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/ProductStatusMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/QualityMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SeasonMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SeasonYearMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SecDimensionMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SizeRelPosnInMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SizeRngeCodeMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SkuBarcodeCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SkuBarcodeCannotContainSpecialCharacters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SkuBarcodeMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SkuBarcodeMaxLengthExceeded.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/SkuNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/StyleMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/errors/StyleSfxMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/controller/ManufacturingInventoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/controller/SkuInventoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/entity/InvTransaction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/entity/ManufacturingInventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/entity/ManufacturingInventoryKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/entity/SKUInventoryKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/entity/SkuInventory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/error/AllocatedQtyLessThanRequestedQty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/repo/InvTransactionRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/repo/ManufacturingInventoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/repo/SkuInventoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/service/InvTransactionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/service/ManufacturingInventoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/service/SkuInventoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/validation/ManufacturingInventoryKeyValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/inventory/validation/SKUInventoryKeyValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/controller/ItemController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/entity/Item.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/entity/ItemKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/entity/ItemLogSearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/entity/ItemRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/entity/ResponseDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/entity/SearchKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/errors/InvalidAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/errors/InvalidLotControlUsed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/errors/InvalidSerialNumberUsed.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/errors/ItemAlreadyExists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/errors/ItemNotFound.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/repo/ItemRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/repo/ItemRequestHistoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/repo/ItemResponseHistoryRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/requesthistory/ItemRequestHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/requesthistory/SearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/responsehistory/ItemResponseHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/search/ItemSearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/search/ItemSearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/search/ItemSearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/service/ItemRequestHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/service/ItemResponseHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/service/ItemService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/validation/ItemValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/item/validation/SearchValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/controller/MFGInvController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/entity/MfgInvRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/entity/MfgInvResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/entity/MfgInvSku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/entity/MfgInvSkuWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/entity/MfgInventorySearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/entity/MfgResponseDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/errors/CustomerOrderNumberCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/errors/CustomerOrderNumberMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/errors/ProductionOrderNumberMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/controller/MfgRequestHistoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/controller/MfgResponseHistoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/entity/MfgHistorySearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/entity/MfgRequestHistoryHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/entity/MfgRequestHistorySku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/entity/MfgResponseHistoryHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/entity/MfgResponseHistorySku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/repo/MfgRequestHistoryHeaderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/repo/MfgRequestHistorySkuRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/repo/MfgResponseHistoryHeaderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/repo/MfgResponseHistorySkuRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/service/MfgRequestHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/history/service/MfgResponseHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/service/ManufacturingInventorySearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/service/MfgInvService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/mfg/validation/MfgValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/util/Converter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/util/CopyConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/util/DateParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/util/SKUAttributeLength.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/controller/WMSInvController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/entity/ResponseDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/entity/WmsInvRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/entity/WmsInvSkuWrapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/entity/WmsRequestDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/entity/WmsRequestHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/entity/WmsResponseDetail.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/entity/WmsResponseHeader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/entity/WmsSku.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/ChannelIsMandatoryAndCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/InvalidQty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/InvalidQueryInventoryDetailsAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/InvalidQueryTransactionsAction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/InvalidRequestFor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/InvalidWmsInventorySource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/InventorySourceCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/InventorySourceMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/LockedQtyIsZero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/RequestForFieldIsMandatoryAndCannotBeBlank.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/SerialNumberMandatory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/errors/SkuEmpty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/query/controller/WmsQueryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/query/entity/QueryInventoryDetailsRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/query/entity/QueryInventoryDetailsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/query/entity/QueryInventoryDetailsSkuResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/query/entity/QueryInventoryTransactionsRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/query/entity/QueryInventoryTransactionsResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/query/entity/QueryInventoryTransactionsSkuResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/query/service/WmsQueryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/repo/WmsRequestDetailRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/repo/WmsRequestHeaderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/repo/WmsResponseDetailRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/repo/WmsResponseHeaderRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/search/controller/WmsSearchController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/search/entity/WmsHistorySearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/search/entity/WmsInventorySearchCriteria.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/search/service/WmsInventorySearchService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/service/WmsInvService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/service/WmsRequestHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/service/WmsResponseHistoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/external/wms/validation/WmsValidationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/filters/JwtRequestFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/util/ArrayListOfStringsToStringArray.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/util/GenerateRandomPassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/util/JwtTokenUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/util/LocalDateAttributeConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/util/LocalDateTimeAttributeConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/api/util/Request.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/keystore.p12" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback-spring.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/CampaignServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/ChannelTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/CompanyTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/DivisionTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/ManufacturingPlantTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/WarehouseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/WmsQueryServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/WmsServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/api/WmsValidationServiceTest.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="CoverageOptionsProvider">
+    <option name="myAddOrReplace" value="1" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="86" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1X3YNlaKaFCnggtllxdrAcun9jM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../um-zuul-gateway/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="api.external.wms.errors" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Sachin\Documents\phase2\givapis\giv\src\main\resources" />
+      <recent name="C:\Users\Sachin\Documents\phase2\givapis\giv\src\test\java\api" />
+      <recent name="C:\Users\Sachin\Documents\phase2\givapis\giv\src\main\java\api\external\wms\errors" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.GivApplication">
+    <configuration name="GivApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="api.GivApplication" />
+      <module name="giv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WmsValidationServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="giv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.WmsValidationServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WmsValidationServiceTest.testChannelIsMandatoryAndCannotBeBlankExceptionForChannel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="giv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.WmsValidationServiceTest" />
+      <option name="METHOD_NAME" value="testChannelIsMandatoryAndCannotBeBlankExceptionForChannel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WmsValidationServiceTest.testInvalidRequestForExceptionForWMSQueryRequestFor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="giv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.WmsValidationServiceTest" />
+      <option name="METHOD_NAME" value="testInvalidRequestForExceptionForWMSQueryRequestFor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WmsValidationServiceTest.testValidChannel" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="giv" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="api" />
+      <option name="MAIN_CLASS_NAME" value="api.WmsValidationServiceTest" />
+      <option name="METHOD_NAME" value="testValidChannel" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.GivApplication" />
+        <item itemvalue="JUnit.WmsValidationServiceTest" />
+        <item itemvalue="JUnit.WmsValidationServiceTest.testChannelIsMandatoryAndCannotBeBlankExceptionForChannel" />
+        <item itemvalue="JUnit.WmsValidationServiceTest.testValidChannel" />
+        <item itemvalue="JUnit.WmsValidationServiceTest.testInvalidRequestForExceptionForWMSQueryRequestFor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afa78d94-315f-41cf-9bbd-e42bb2a9d036" name="Default Changelist" comment="" />
+      <created>1580276207616</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580276207616</updated>
+    </task>
+    <task id="LOCAL-00001" summary="removed lint errors">
+      <created>1580294441838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1580294441838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="removed lint errors">
+      <created>1580362656476</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580362656476</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Implemented junit test cases for WmsQueryService, WmsInvService and WmsValidationService and also refactored code for all three services.">
+      <created>1584014332354</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584014332354</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed lint errors" />
+    <MESSAGE value="Implemented junit test cases for WmsQueryService, WmsInvService and WmsValidationService and also refactored code for all three services." />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented junit test cases for WmsQueryService, WmsInvService and WmsValidationService and also refactored code for all three services." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Editor_|_Color_Scheme_|_General" timestamp="1580984025979">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Editor_|_Color_Scheme_|_General/0.0.1366.728@0.0.1366.728" timestamp="1580984025979" />
+    <state x="280" y="32" key="#WmsServiceTest" timestamp="1580450909880">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="280" y="32" key="#WmsServiceTest/0.0.1366.728@0.0.1366.728" timestamp="1580450909880" />
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580568864087">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="20" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1580568864087" />
+    <state x="831" y="103" key="#com.intellij.ide.util.MemberChooser" timestamp="1580729682520">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="831" y="103" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1580729682520" />
+    <state x="531" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1583728000073">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="531" y="253" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1366.728@0.0.1366.728" timestamp="1583728000073" />
+    <state x="384" y="0" key="CommitChangelistDialog2" timestamp="1584014330046">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="384" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1584014330046" />
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1584506922810">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1584506922810" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1584538928081">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1584538928081" />
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom" timestamp="1584508928330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584508928330" />
+    <state width="1323" height="236" key="GridCell.Tab.0.center" timestamp="1584508928330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584508928330" />
+    <state width="1323" height="236" key="GridCell.Tab.0.left" timestamp="1584508928330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584508928330" />
+    <state width="1323" height="236" key="GridCell.Tab.0.right" timestamp="1584508928330">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="236" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584508928330" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1584508759006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584508759006" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1584508759006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1584508759006" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1584508759006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1584508759006" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1584508759006">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1584508759006" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1584008102362">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584008102362" />
+    <state x="395" y="80" key="MultipleFileMergeDialog" timestamp="1584008102369">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="395" y="80" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1584008102369" />
+    <state x="297" y="30" key="Registry" timestamp="1581420591773">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="297" y="30" key="Registry/0.0.1366.728@0.0.1366.728" timestamp="1581420591773" />
+    <state x="463" y="76" key="RollbackChangesDialog" timestamp="1584506798012">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="76" key="RollbackChangesDialog/0.0.1366.728@0.0.1366.728" timestamp="1584506798012" />
+    <state x="184" y="0" key="SettingsEditor" timestamp="1581420527210">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581420527210" />
+    <state x="530" y="281" key="VCS.ChangelistChooser" timestamp="1580981811018">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="530" y="281" key="VCS.ChangelistChooser/0.0.1366.728@0.0.1366.728" timestamp="1580981811018" />
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1584014342665">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="98" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1584014342665" />
+    <state width="691" height="372" key="XDebugger.FullValuePopup" timestamp="1580902290591">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="691" height="372" key="XDebugger.FullValuePopup/0.0.1366.728@0.0.1366.728" timestamp="1580902290591" />
+    <state x="342" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581420990698">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="342" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.728@0.0.1366.728" timestamp="1581420990698" />
+    <state x="249" y="95" width="607" height="536" key="find.popup" timestamp="1584507118574">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="249" y="95" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1584507118574" />
+    <state x="381" y="156" key="git4idea.merge.GitPullDialog" timestamp="1584506818326">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="381" y="156" key="git4idea.merge.GitPullDialog/0.0.1366.728@0.0.1366.728" timestamp="1584506818326" />
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup" timestamp="1581420892354">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="324" y="90" width="700" height="530" key="recent.locations.popup/0.0.1366.728@0.0.1366.728" timestamp="1581420892354" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1580884276973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1580884276973" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1581421013610">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1581421013610" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="queryInvTransSkuResponse" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryDetailsForValidJSONDataForQICAction.ic" NAME="WmsQueryServiceTest.testQueryInventoryDetailsForValidJSONDataForQICAction Coverage Results" MODIFIED="1580815923980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryDetailsForValidJSONDataForQIAction.ic" NAME="WmsQueryServiceTest.testQueryInventoryDetailsForValidJSONDataForQIAction Coverage Results" MODIFIED="1580815245575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryTransactionsForValidJSONDataForQTRAction.ic" NAME="WmsQueryServiceTest.testQueryInventoryTransactionsForValidJSONDataForQTRAction Coverage Results" MODIFIED="1580895280804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryTransactionsForData.ic" NAME="WmsQueryServiceTest.testQueryInventoryTransactionsForData Coverage Results" MODIFIED="1580806333908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryTransactionsForInvalidSku.ic" NAME="WmsQueryServiceTest.testQueryInventoryTransactionsForInvalidSku Coverage Results" MODIFIED="1580988715061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryTransactionsForValidJSONDataForQTCHAction.ic" NAME="WmsQueryServiceTest.testQueryInventoryTransactionsForValidJSONDataForQTCHAction Coverage Results" MODIFIED="1580810802952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryDetailsForValidJSONDataForQIAAction.ic" NAME="WmsQueryServiceTest.testQueryInventoryDetailsForValidJSONDataForQIAAction Coverage Results" MODIFIED="1580815447214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryTransactionsForValidSkuListSize.ic" NAME="WmsQueryServiceTest.testQueryInventoryTransactionsForValidSkuListSize Coverage Results" MODIFIED="1580986867191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest.ic" NAME="WmsQueryServiceTest Coverage Results" MODIFIED="1583999128257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryTransactionsForZeroSizeSkuList.ic" NAME="WmsQueryServiceTest.testQueryInventoryTransactionsForZeroSizeSkuList Coverage Results" MODIFIED="1580987108530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsValidationServiceTest_testInvalidQueryTransactionsAction.ic" NAME="WmsValidationServiceTest.testInvalidQueryTransactionsAction Coverage Results" MODIFIED="1581398200198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryTransactionsForInvalidSkuListSize.ic" NAME="WmsQueryServiceTest.testQueryInventoryTransactionsForInvalidSkuListSize Coverage Results" MODIFIED="1580988357014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsValidationServiceTest_testInvalidQueryTransactionsActionException.ic" NAME="WmsValidationServiceTest.testInvalidQueryTransactionsActionException Coverage Results" MODIFIED="1581483662663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryTransactionsForInValidRequestFor.ic" NAME="WmsQueryServiceTest.testQueryInventoryTransactionsForInValidRequestFor Coverage Results" MODIFIED="1580983791040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsServiceTest_testProcessForNewTransaction.ic" NAME="WmsServiceTest.testProcessForNewTransaction Coverage Results" MODIFIED="1580451585779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryTransactionsForValidJSONDataForQTAAction.ic" NAME="WmsQueryServiceTest.testQueryInventoryTransactionsForValidJSONDataForQTAAction Coverage Results" MODIFIED="1580806679611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsValidationServiceTest_testValidSkuListSize.ic" NAME="WmsValidationServiceTest.testValidSkuListSize Coverage Results" MODIFIED="1580986619009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsValidationServiceTest_testValidateSkuListSize.ic" NAME="WmsValidationServiceTest.testValidateSkuListSize Coverage Results" MODIFIED="1580986329014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsServiceTest.ic" NAME="WmsServiceTest Coverage Results" MODIFIED="1583999191141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsQueryServiceTest_testQueryInventoryDetailsForInvalidAction.ic" NAME="WmsQueryServiceTest.testQueryInventoryDetailsForInvalidAction Coverage Results" MODIFIED="1580811463924" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/giv$WmsValidationServiceTest.ic" NAME="WmsValidationServiceTest Coverage Results" MODIFIED="1584014049192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>api.*</FILTER>
+    </SUITE>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+
+i
+java:S2259š"F"NullPointerException" will be thrown when invoking method "unLock()".(´¾ù–ûÿÿÿÿ8±Û€öŒ.
+f
+java:S2259”"H"NullPointerException" will be thrown when invoking method "subtract()".(÷¨¿‰8±Û€öŒ.
+m
+java:S1764ş"JCorrect one of the identical sub-expressions on both sides of operator "-"(Ô»îİùÿÿÿÿ8±Û€öŒ.
+h	java:S112Ğ"FDefine and throw a dedicated exception instead of using a generic one.(ƒµ€Èúÿÿÿÿ8±Û€öŒ.
+y
+java:S1192¹"VDefine a constant instead of duplicating this literal "/zeroAvailableQty.txt" 4 times.(İ‚ë¼ùÿÿÿÿ8±Û€öŒ.
+l
+java:S1192¹"IDefine a constant instead of duplicating this literal "CONF_DIR" 4 times.(İ‚ë¼ùÿÿÿÿ8±Û€öŒ.
+b
+java:S2259˜"D"NullPointerException" will be thrown when invoking method "lock()".(ıïÕ8±Û€öŒ.
