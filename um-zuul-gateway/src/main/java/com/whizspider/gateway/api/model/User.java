@@ -13,10 +13,11 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class User {
   @Id
-  @GeneratedValue(strategy = GenerationType.AUTO)
-  private int id;
   private String userName;
+
   private String password;
+
   private boolean active;
+
   private String roles;
 }
