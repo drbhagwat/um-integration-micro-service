@@ -4,5 +4,5 @@ insert
 		password,
 		active, roles)
 	values ('admin',
-	'admin',
-    'true', 'ROLE_ADMIN');
+	'$2a$10$v0DshXxSGW2Yp49X2vZCvOITwhSBL9oVok4tcxmE9NNWAvXm6U5ye',
+    'true', 'ROLE_ADMIN') ON CONFLICT (user_name) DO NOTHING;
