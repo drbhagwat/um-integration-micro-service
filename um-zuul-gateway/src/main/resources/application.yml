@@ -37,3 +37,7 @@ ribbon:
 USER_PATH:  /user
 ADMIN_PATH:  /admin
 PERMIT_ALL_PATH:  /, /h2-console/**
+
+# following constants are for validation of various Json inputs and Exception handling.
+UM_EXCEPTION: UM Exception
+VALIDATION_FAILED: Validation Failed

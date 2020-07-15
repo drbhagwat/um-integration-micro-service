@@ -13,3 +13,9 @@ insert
 		users_name)
 	values ('ROLE_ADMIN',
 	'admin') ON CONFLICT (name) DO NOTHING;
+
+insert
+	into
+		users_role (users_name,
+		role_name)
+	values ('admin', 'ROLE_ADMIN') ON CONFLICT (users_name, role_name) DO NOTHING;

@@ -1,4 +1,3 @@
-/*
 package com.whizspider.gateway.api.errors;
 
 import java.time.LocalDateTime;
@@ -51,4 +50,3 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
     return new ResponseEntity(errorDetails, HttpStatus.BAD_REQUEST);
   }
 }
-*/

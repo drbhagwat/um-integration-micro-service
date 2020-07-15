@@ -12,3 +12,11 @@ create
 		name varchar(255) primary key,
 		users_name varchar(255) references users(name)
 );
+
+create
+	table if not exists
+		users_role (
+		users_name varchar(255) references users(name),
+		role_name varchar(255) references role(name),
+		primary key(users_name, role_name)
+);
