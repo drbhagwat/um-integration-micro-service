@@ -5,6 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table(name = "users")
@@ -13,11 +15,16 @@ import javax.persistence.*;
 @NoArgsConstructor
 public class User {
   @Id
-  private String userName;
+  private String name;
 
   private String password;
 
   private boolean active;
 
-  private String roles;
+  @OneToMany(fetch = FetchType.EAGER,
+      mappedBy = "user",
+      cascade = CascadeType.ALL,
+      orphanRemoval = true
+  )
+  private List<Role> roles = new ArrayList<>();
 }

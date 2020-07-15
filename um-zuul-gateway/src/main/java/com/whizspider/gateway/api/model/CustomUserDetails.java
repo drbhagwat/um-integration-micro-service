@@ -6,27 +6,29 @@ import lombok.NoArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
+import java.util.Set;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
+@Component
 public class CustomUserDetails implements UserDetails {
   private String userName;
   private String password;
   private boolean active;
-  private List<GrantedAuthority> authorities;
+  private List<GrantedAuthority> authorities = new ArrayList<>();
 
   public CustomUserDetails(User user) {
-    this.userName = user.getUserName();
+    this.userName = user.getName();
     this.password = user.getPassword();
     this.active = user.isActive();
-    this.authorities = Arrays.stream(user.getRoles().split(","))
-        .map(SimpleGrantedAuthority::new)
-        .collect(Collectors.toList());
+
+    List<Role> roles = user.getRoles();
+    roles.forEach(element -> this.authorities.add(new SimpleGrantedAuthority(element.getName())));
   }
 
   @Override
