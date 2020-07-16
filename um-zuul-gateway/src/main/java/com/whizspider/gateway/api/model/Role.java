@@ -1,5 +1,7 @@
 package com.whizspider.gateway.api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.whizspider.gateway.api.config.security.BasicLogger;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,10 +18,11 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Role {
+public class Role extends BasicLogger<String> {
   @Id
   private String name;
 
   @ManyToMany(mappedBy = "roles")
+  @JsonIgnore
   private List<User> users = new ArrayList<>();
 }

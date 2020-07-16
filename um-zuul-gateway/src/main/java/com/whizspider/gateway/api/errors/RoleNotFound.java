@@ -7,9 +7,9 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @EqualsAndHashCode(callSuper=true)
-public class RoleAlreadyExists extends Exception {
+public class RoleNotFound extends Exception {
   private static final long serialVersionUID = 1L;
-  public RoleAlreadyExists(String exception) {
+  public RoleNotFound(String exception) {
     super(exception);
   }
 }

@@ -1,5 +1,7 @@
 package com.whizspider.gateway.api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.whizspider.gateway.api.config.security.BasicLogger;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,7 +17,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class User {
+public class User extends BasicLogger<String> {
   @Id
   private String name;
 
@@ -24,6 +26,7 @@ public class User {
   private boolean active;
 
   @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+  @JsonIgnore
   @JoinTable(
       name = "users_role",
       joinColumns = @JoinColumn(
