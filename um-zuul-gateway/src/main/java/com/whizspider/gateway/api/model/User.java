@@ -2,14 +2,11 @@ package com.whizspider.gateway.api.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.whizspider.gateway.api.config.security.BasicLogger;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 @Entity
 @Table(name = "users")
@@ -17,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
+@EqualsAndHashCode(callSuper = false)
 public class User extends BasicLogger<String> {
   @Id
   private String name;
@@ -33,5 +31,5 @@ public class User extends BasicLogger<String> {
           name = "users_name", referencedColumnName = "name"),
       inverseJoinColumns = @JoinColumn(
           name = "role_name", referencedColumnName = "name"))
-  private List<Role> roles = new ArrayList<>();
+  private Set<Role> roles = new HashSet<>();
 }

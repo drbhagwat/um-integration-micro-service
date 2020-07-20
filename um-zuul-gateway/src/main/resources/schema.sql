@@ -14,11 +14,11 @@ create
 	table if not exists
 		role (
 		name varchar(255) primary key,
+		users_name varchar(255) references users(name),
 		created_date_time TIMESTAMPTZ,
 		created_user VARCHAR(255),
 		last_updated_date_time TIMESTAMPTZ,
-		last_updated_user VARCHAR(255),
-		users_name varchar(255) references users(name)
+		last_updated_user VARCHAR(255)
 );
 
 create

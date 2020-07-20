@@ -28,7 +28,7 @@ public class CustomUserDetails implements UserDetails {
     this.password = user.getPassword();
     this.active = user.isActive();
 
-    for(Role role: user.getRoles()) {
+    for (Role role : user.getRoles()) {
       this.authorities.add(new SimpleGrantedAuthority(role.getName()));
     }
   }

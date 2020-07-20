@@ -4,6 +4,7 @@ import java.time.LocalDateTime;
 import java.util.ArrayList;
 import java.util.List;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.Ordered;
@@ -23,6 +24,7 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 @SuppressWarnings({"unchecked", "rawtypes"})
 @Data
 @NoArgsConstructor
+@EqualsAndHashCode(callSuper = false)
 public class RestExceptionHandler extends ResponseEntityExceptionHandler {
   @Value("${UM_EXCEPTION}")
   private String umException;

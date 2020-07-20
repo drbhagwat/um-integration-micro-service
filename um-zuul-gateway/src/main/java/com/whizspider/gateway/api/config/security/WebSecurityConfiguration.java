@@ -12,7 +12,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 
 @EnableWebSecurity
-public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
+public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
   @Value("${PERMIT_ALL_PATH}")
   private String[] permitAllPath;
 
@@ -41,7 +41,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
         .antMatchers(adminPath).hasRole("ADMIN")
         .antMatchers(userPath).hasAnyRole("USER", "ADMIN")
         .antMatchers(permitAllPath).permitAll()
-        .and().formLogin();
+        .and().formLogin().permitAll()
+        .and().logout().permitAll();
 
 /*
         .and().csrf().ignoringAntMatchers("/h2-console/**") //don't apply CSRF protection to /h2-console
