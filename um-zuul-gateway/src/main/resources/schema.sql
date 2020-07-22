@@ -2,7 +2,7 @@ create	table if not exists users(
     name varchar(255) primary key,
 	password varchar(255) not null,
 	active boolean not null,
-	first_successful_login boolean not null,
+	first_successful_login varchar(255),
 	is_most_recent_login_successful boolean not null,
 	created_date_time TIMESTAMPTZ,
 	created_user VARCHAR(255),

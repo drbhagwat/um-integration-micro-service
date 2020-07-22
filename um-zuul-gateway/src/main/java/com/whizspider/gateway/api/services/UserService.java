@@ -54,20 +54,16 @@ public class UserService {
     try {
       get(user.getName());
       throw new UserAlreadyExists(userAlreadyExists);
-    } catch (UserNotFound userNotFound) {
+    } catch (UserNotFound userNotFoundException) {
       return userRepository.save(user);
     }
   }
 
   public User update(String name, User user) throws UserNotFound {
-    try {
-      User existingUser = get(user.getName());
-      existingUser.setFirstSuccessfulLogin(user.isFirstSuccessfulLogin());
-      existingUser.setMostRecentLoginSuccessful(user.isMostRecentLoginSuccessful());
-      return userRepository.save(existingUser);
-    } catch (UserNotFound userNotFound) {
-      throw userNotFound;
-    }
+    User existingUser = get(name);
+    existingUser.setFirstSuccessfulLogin(user.getFirstSuccessfulLogin());
+    existingUser.setMostRecentLoginSuccessful(user.isMostRecentLoginSuccessful());
+    return userRepository.save(existingUser);
   }
 
   public void delete(String name) throws UserNotFound {

@@ -1,6 +1,5 @@
 package com.whizspider.gateway.api.controllers;
 
-import com.whizspider.gateway.api.errors.RoleNotFound;
 import com.whizspider.gateway.api.errors.UserAlreadyExists;
 import com.whizspider.gateway.api.errors.UserNotFound;
 import com.whizspider.gateway.api.model.User;
@@ -34,17 +33,16 @@ public class UserController {
   }
 
   @PostMapping("/add")
-  public User add(@Valid User User) throws UserAlreadyExists {
-    return userService.add(User);
+  public User add(@Valid User user) throws UserAlreadyExists {
+    return userService.add(user);
   }
 
-
-  @PutMapping("/update")
-  public User update(String name, @Valid User User) throws UserAlreadyExists, UserNotFound {
-    return userService.update(name, User);
+  @PutMapping("/update/{name}")
+  public User update(@PathVariable String name, @Valid User user) throws UserNotFound {
+    return userService.update(name, user);
   }
   @GetMapping("/delete/{name}")
-  public void delete(@PathVariable String name) throws UserNotFound, RoleNotFound {
+  public void delete(@PathVariable String name) throws UserNotFound {
     userService.delete(name);
   }
 }

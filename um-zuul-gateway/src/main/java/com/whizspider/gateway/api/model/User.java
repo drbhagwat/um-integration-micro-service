@@ -22,7 +22,7 @@ public class User extends CommonFields<String> {
 
   private boolean active;
 
-  private boolean firstSuccessfulLogin;
+  private String firstSuccessfulLogin;
 
   private boolean isMostRecentLoginSuccessful;
 

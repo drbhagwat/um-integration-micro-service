@@ -13,15 +13,15 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoginOutput {
   /*
-   * true only when the login becomes successful for the first time
-   * afterwards this is untouched; The reason for this flag is to
-   * is to force the change password.
+   * true only when the login becomes successful for the first time.
+   * For subsequent logins, this becomes NA. The use case is to
+   * force the change password.
    */
-  boolean firstSuccessfulLogin;
+  private String firstSuccessfulLogin;
 
   // indicates if the most recent login attempt was successful or not
   boolean isMostRecentLoginSuccessful;
 
   // this carries the precise message about the outcome of the login
-  String message;
+  private String message;
 }
