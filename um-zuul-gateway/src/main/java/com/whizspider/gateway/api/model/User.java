@@ -1,7 +1,6 @@
 package com.whizspider.gateway.api.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.whizspider.gateway.api.config.security.BasicLogger;
 import lombok.*;
 
 import javax.persistence.*;
@@ -11,17 +10,21 @@ import java.util.Set;
 @Entity
 @Table(name = "users")
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
+@AllArgsConstructor
 @ToString
 @EqualsAndHashCode(callSuper = false)
-public class User extends BasicLogger<String> {
+public class User extends CommonFields<String> {
   @Id
   private String name;
 
   private String password;
 
   private boolean active;
+
+  private boolean firstSuccessfulLogin;
+
+  private boolean isMostRecentLoginSuccessful;
 
   @ManyToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
   @JsonIgnore

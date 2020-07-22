@@ -37,12 +37,10 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
   @Override
   protected void configure(HttpSecurity httpSecurity) throws Exception {
-    httpSecurity.authorizeRequests()
+    httpSecurity.csrf().disable().authorizeRequests()
         .antMatchers(adminPath).hasRole("ADMIN")
         .antMatchers(userPath).hasAnyRole("USER", "ADMIN")
-        .antMatchers(permitAllPath).permitAll()
-        .and().formLogin().permitAll()
-        .and().logout().permitAll();
+        .antMatchers(permitAllPath).permitAll();
 
 /*
         .and().csrf().ignoringAntMatchers("/h2-console/**") //don't apply CSRF protection to /h2-console

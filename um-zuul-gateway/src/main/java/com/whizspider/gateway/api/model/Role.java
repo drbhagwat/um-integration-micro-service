@@ -1,6 +1,5 @@
 package com.whizspider.gateway.api.model;
 
-import com.whizspider.gateway.api.config.security.BasicLogger;
 import lombok.*;
 
 import javax.persistence.Entity;
@@ -12,7 +11,7 @@ import javax.persistence.Id;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode(callSuper = false)
-public class Role extends BasicLogger<String> {
+public class Role extends CommonFields<String> {
   @Id
   private String name;
 

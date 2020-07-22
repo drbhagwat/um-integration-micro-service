@@ -1,7 +1,7 @@
 package com.whizspider.gateway.api.services;
 
-import com.whizspider.gateway.api.errors.RoleNotFound;
 import com.whizspider.gateway.api.errors.UserAlreadyExists;
+import com.whizspider.gateway.api.errors.UserNotFound;
 import com.whizspider.gateway.api.model.User;
 import com.whizspider.gateway.api.repo.UserRepository;
 import lombok.AllArgsConstructor;
@@ -41,22 +41,36 @@ public class UserService {
     return userRepository.findAll(pageable);
   }
 
-  public User add(User user) throws UserAlreadyExists {
-    String name = user.getName();
-    Optional<User> optionalUser = userRepository.findById(name);
+  public User get(String name) throws UserNotFound {
+    Optional<User> optionalUser = userRepository.findByName(name);
 
-    if (optionalUser.isPresent()) {
-      throw new UserAlreadyExists(userAlreadyExists);
+    if (optionalUser.isEmpty()) {
+      throw new UserNotFound(userNotFound);
     }
-    return userRepository.save(user);
+    return optionalUser.get();
   }
 
-  public void delete(String name) throws RoleNotFound {
-    Optional<User> optionalUser = userRepository.findById(name);
-
-    if (!optionalUser.isPresent()) {
-      throw new RoleNotFound(userNotFound);
+  public User add(User user) throws UserAlreadyExists {
+    try {
+      get(user.getName());
+      throw new UserAlreadyExists(userAlreadyExists);
+    } catch (UserNotFound userNotFound) {
+      return userRepository.save(user);
     }
-    userRepository.delete(optionalUser.get());
+  }
+
+  public User update(String name, User user) throws UserNotFound {
+    try {
+      User existingUser = get(user.getName());
+      existingUser.setFirstSuccessfulLogin(user.isFirstSuccessfulLogin());
+      existingUser.setMostRecentLoginSuccessful(user.isMostRecentLoginSuccessful());
+      return userRepository.save(existingUser);
+    } catch (UserNotFound userNotFound) {
+      throw userNotFound;
+    }
+  }
+
+  public void delete(String name) throws UserNotFound {
+    userRepository.delete(get(name));
   }
 }

@@ -1,4 +1,4 @@
-package com.whizspider.gateway.api.config.security;
+package com.whizspider.gateway.api.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public abstract class BasicLogger<U> {
+public abstract class CommonFields<U> {
   @CreatedBy
   protected U createdUser;
 

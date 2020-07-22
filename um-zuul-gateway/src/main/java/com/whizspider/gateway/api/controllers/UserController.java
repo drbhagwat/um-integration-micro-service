@@ -28,11 +28,21 @@ public class UserController {
     return userService.getAll(pageNo, pageSize, sortBy, orderBy);
   }
 
+  @GetMapping("/{name}")
+  public User get(@PathVariable String name) throws UserNotFound {
+    return userService.get(name);
+  }
+
   @PostMapping("/add")
   public User add(@Valid User User) throws UserAlreadyExists {
     return userService.add(User);
   }
 
+
+  @PutMapping("/update")
+  public User update(String name, @Valid User User) throws UserAlreadyExists, UserNotFound {
+    return userService.update(name, User);
+  }
   @GetMapping("/delete/{name}")
   public void delete(@PathVariable String name) throws UserNotFound, RoleNotFound {
     userService.delete(name);

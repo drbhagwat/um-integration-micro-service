@@ -35,8 +35,8 @@ ribbon:
   ConnectTimeout: 60000
 
 USER_PATH:  /user
-ADMIN_PATH:  /admin
-PERMIT_ALL_PATH:  /, /h2-console/**
+ADMIN_PATH:  /admin, /users/**
+PERMIT_ALL_PATH:  /login, /logout
 
 # following constants are for validation of various Json inputs and Exception handling.
 UM_EXCEPTION: UM Exception
