@@ -28,7 +28,7 @@ public class RoleService {
   private String roleAlreadyExists;
 
   @Value("${role.not.found}")
-  private String RoleNotFound;
+  private String roleNotFound;
 
   @Autowired
   private RoleRepository roleRepository;
@@ -41,21 +41,21 @@ public class RoleService {
     return roleRepository.findAll(pageable);
   }
 
-  public Role add(Role Role) throws RoleAlreadyExists {
-    String name = Role.getName();
+  public Role add(Role role) throws RoleAlreadyExists {
+    String name = role.getName();
     Optional<Role> optionalRole = roleRepository.findById(name);
 
     if (optionalRole.isPresent()) {
       throw new RoleAlreadyExists(roleAlreadyExists);
     }
-    return roleRepository.save(Role);
+    return roleRepository.save(role);
   }
 
   public void delete(String name) throws RoleNotFound {
     Optional<Role> optionalRole = roleRepository.findById(name);
 
     if (!optionalRole.isPresent()) {
-      throw new RoleNotFound(RoleNotFound);
+      throw new RoleNotFound(roleNotFound);
     }
     roleRepository.delete(optionalRole.get());
   }

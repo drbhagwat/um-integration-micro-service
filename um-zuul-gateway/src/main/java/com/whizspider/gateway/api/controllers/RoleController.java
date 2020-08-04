@@ -28,8 +28,8 @@ public class RoleController {
   }
 
   @PostMapping("/add")
-  public Role add(@Valid Role Role) throws RoleAlreadyExists {
-    return roleService.add(Role);
+  public Role add(@Valid Role role) throws RoleAlreadyExists {
+    return roleService.add(role);
   }
 
   @GetMapping("/delete/{name}")

@@ -33,7 +33,7 @@ public class RestExceptionHandler extends ResponseEntityExceptionHandler {
   private String validationFailed;
 
   @ExceptionHandler(Exception.class)
-  public final ResponseEntity<Object> handleAllExceptions(Exception ex, WebRequest request) {
+  public final ResponseEntity<ErrorDetails> handleAllExceptions(Exception ex, WebRequest request) {
     List<String> details = new ArrayList<>();
     details.add(ex.getLocalizedMessage());
     ErrorDetails errorDetails = new ErrorDetails(LocalDateTime.now(), umException, details);

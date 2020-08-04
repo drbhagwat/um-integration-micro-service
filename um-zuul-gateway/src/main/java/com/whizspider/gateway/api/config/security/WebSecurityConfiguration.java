@@ -26,13 +26,13 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
   private UserDetailsService userDetailsService;
 
   @Bean
-  public PasswordEncoder PasswordEncoder() {
+  public PasswordEncoder passwordEncoder() {
     return new BCryptPasswordEncoder();
   }
 
   @Override
   protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-    auth.userDetailsService(userDetailsService).passwordEncoder(PasswordEncoder());
+    auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder());
   }
 
   @Override
