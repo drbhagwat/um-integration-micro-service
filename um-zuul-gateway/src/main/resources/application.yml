@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: zuul-service
+    name: zuul-api-gateway-service
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres
     username: postgres
