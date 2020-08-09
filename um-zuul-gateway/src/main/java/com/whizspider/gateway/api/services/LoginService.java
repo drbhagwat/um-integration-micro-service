@@ -32,10 +32,9 @@ public class LoginService {
 
   public LoginOutput login(LoginInput loginInput) {
     String userName = loginInput.getUserName();
-    User user;
 
     try {
-      user = userService.get(userName);
+      User user = userService.get(userName);
       String password = loginInput.getPassword();
       String userSignedInSuccessfullyBefore = user.getFirstSuccessfulLogin();
       boolean match = passwordEncoder.matches(password, user.getPassword());
@@ -43,11 +42,11 @@ public class LoginService {
       if (!match) { // password does not match
 
         if (userSignedInSuccessfullyBefore.equals(FALSE)) {
-          // first attempt
+          // first login attempt
           loginOutput.setFirstSuccessfulLogin(FALSE);
           user.setFirstSuccessfulLogin(FALSE);
         } else {
-          // second or subsequent attempt
+          // second or later login attempt
           loginOutput.setFirstSuccessfulLogin("NA");
           user.setFirstSuccessfulLogin("NA");
         }

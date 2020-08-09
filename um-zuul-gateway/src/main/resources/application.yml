@@ -22,17 +22,17 @@ eureka:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
 
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 12000000
-
-ribbon:
-  ReadTimeout: 60000
-  ConnectTimeout: 60000
+#hystrix:
+#  command:
+#    default:
+#      execution:
+#        isolation:
+#          thread:
+#            timeoutInMilliseconds: 12000000
+#
+#ribbon:
+#  ReadTimeout: 60000
+#  ConnectTimeout: 60000
 
 USER_PATH:  /user
 ADMIN_PATH:  /admin, /users/**
