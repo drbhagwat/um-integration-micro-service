@@ -57,11 +57,11 @@ public class LoginService {
         user.setMostRecentLoginSuccessful(true);
 
         if (userSignedInSuccessfullyBefore.equals(FALSE)) {
-          // first attempt
+          // first login attempt
           loginOutput.setFirstSuccessfulLogin(TRUE);
           user.setFirstSuccessfulLogin(TRUE);
         } else {
-          // second or subsequent attempt
+          // second or later login attempt
           user.setFirstSuccessfulLogin("NA");
           loginOutput.setFirstSuccessfulLogin("NA");
         }

@@ -22,14 +22,14 @@ import java.time.LocalDateTime;
 @ToString
 public abstract class CommonFields<U> {
   @CreatedBy
-  protected U createdUser;
+  private U createdUser;
 
   @CreatedDate
-  protected LocalDateTime createdDateTime;
+  private LocalDateTime createdDateTime;
 
   @LastModifiedBy
-  protected U lastUpdatedUser;
+  private U lastUpdatedUser;
 
   @LastModifiedDate
-  protected LocalDateTime lastUpdatedDateTime;
+  private LocalDateTime lastUpdatedDateTime;
 }

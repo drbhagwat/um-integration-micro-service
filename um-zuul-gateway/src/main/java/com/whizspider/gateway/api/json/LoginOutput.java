@@ -20,7 +20,7 @@ public class LoginOutput {
   private String firstSuccessfulLogin;
 
   // indicates if the most recent login attempt was successful or not
-  boolean isMostRecentLoginSuccessful;
+  private boolean isMostRecentLoginSuccessful;
 
   // this carries the precise message about the outcome of the login
   private String message;

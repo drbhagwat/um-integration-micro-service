@@ -13,8 +13,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class LoginInput {
   // indicates the user name
-  String userName;
+  private String userName;
 
   // indicates the password
-  String password;
+  private String password;
 }

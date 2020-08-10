@@ -31,7 +31,6 @@ public class CustomUserDetailService implements UserDetailsService {
     if (user.isEmpty()) {
       throw new UsernameNotFoundException("Could not find the user " + name);
     }
-
     return new CustomUserDetails(user.get());
   }
 }
