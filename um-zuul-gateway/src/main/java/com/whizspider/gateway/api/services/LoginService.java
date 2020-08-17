@@ -20,6 +20,7 @@ import org.springframework.stereotype.Service;
 public class LoginService {
   private static final String FALSE = "false";
   private static final String TRUE = "true";
+  private static final String NA = "NA";
 
   @Autowired
   private UserService userService;
@@ -39,40 +40,41 @@ public class LoginService {
       String userSignedInSuccessfullyBefore = user.getFirstSuccessfulLogin();
       boolean match = passwordEncoder.matches(password, user.getPassword());
 
-      if (!match) { // password does not match
+      if (!match) { // passwords do not match
 
         if (userSignedInSuccessfullyBefore.equals(FALSE)) {
-          // first login attempt
+          // this is the very first login attempt
           loginOutput.setFirstSuccessfulLogin(FALSE);
-          user.setFirstSuccessfulLogin(FALSE);
         } else {
-          // second or later login attempt
-          loginOutput.setFirstSuccessfulLogin("NA");
-          user.setFirstSuccessfulLogin("NA");
+          // this is either the second or a subsequent login attempt
+          loginOutput.setFirstSuccessfulLogin(NA);
+          user.setFirstSuccessfulLogin(NA);
+          // finally update the user record
+          userService.update(userName, user);
         }
-        loginOutput.setMessage("The password for " + userName + " is incorrect. Please retry with the correct password.");
+        loginOutput.setMessage("The password for the user " + userName + " is incorrect. Please retry with the correct password.");
         loginOutput.setMostRecentLoginSuccessful(false);
-        user.setMostRecentLoginSuccessful(false);
       } else { // password and user name both match
-        user.setMostRecentLoginSuccessful(true);
 
         if (userSignedInSuccessfullyBefore.equals(FALSE)) {
-          // first login attempt
+          // this is the very first login attempt
           loginOutput.setFirstSuccessfulLogin(TRUE);
           user.setFirstSuccessfulLogin(TRUE);
         } else {
-          // second or later login attempt
-          user.setFirstSuccessfulLogin("NA");
-          loginOutput.setFirstSuccessfulLogin("NA");
+          // this is either the second or a subsequent login attempt
+          loginOutput.setFirstSuccessfulLogin(NA);
+          user.setFirstSuccessfulLogin(NA);
         }
         loginOutput.setMostRecentLoginSuccessful(true);
+        user.setMostRecentLoginSuccessful(true);
         loginOutput.setMessage("Welcome " + userName + ". You are logged in.");
+        // finally update the user record
+        userService.update(userName, user);
       }
-      userService.update(userName, user);
     } catch (UserNotFound userNotFound) {
       loginOutput.setFirstSuccessfulLogin(FALSE);
       loginOutput.setMostRecentLoginSuccessful(false);
-      loginOutput.setMessage("The user name " + userName + " is not found in the system");
+      loginOutput.setMessage("The user name " + userName + " is not found!");
     }
     return loginOutput;
   }
