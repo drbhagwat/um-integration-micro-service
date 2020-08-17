@@ -1,5 +1,6 @@
 package com.whizspider.gateway.api.config.security;
 
+import com.whizspider.gateway.api.services.CustomUserDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -23,7 +24,7 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
   private String[] userPath;
 
   @Autowired
-  private UserDetailsService userDetailsService;
+  private CustomUserDetailService customUserDetailService;
 
   @Autowired
   private PasswordEncoder passwordEncoder;
@@ -35,12 +36,13 @@ public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
 
   @Override
   protected void configure(AuthenticationManagerBuilder authenticationManagerBuilder) throws Exception {
-    authenticationManagerBuilder.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder);
+    authenticationManagerBuilder.userDetailsService(customUserDetailService).passwordEncoder(passwordEncoder);
   }
 
   @Override
   protected void configure(HttpSecurity httpSecurity) throws Exception {
     httpSecurity.csrf().disable().authorizeRequests()
+        .anyRequest().authenticated()
         .antMatchers(adminPath).hasRole("ADMIN")
         .antMatchers(userPath).hasAnyRole("USER", "ADMIN")
         .antMatchers(permitAllPath).permitAll();
